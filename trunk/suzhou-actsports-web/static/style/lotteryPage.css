@@ -1,0 +1,136 @@
+body{
+    background: url(../img/bg0.png);
+}
+#lotteryPage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#lotteryPage .inner{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 50%;
+	margin-top: -190px;
+}
+#lotteryPage button{
+	margin-top: 38px;
+}
+#lotteryPage .weui-btn_primary{
+	color: #df3c5c;
+	background: #fff;
+	background-image:-webkit-linear-gradient(to top, #d1ecfd, #fff);
+  	background-image:linear-gradient(to top, #d1ecfd, #fff);
+	width: 70%;
+	font-size: 18px;
+}
+#lotteryPage .weui-btn_primary:not(.weui-btn_disabled):active{
+	background: #d1ecfd;
+}
+#lotteryPage .loadingDiv{
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(0,0,0,0.2);
+} 
+#lotteryPage .loadingDiv img{
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -33px;
+	margin-top:-215px;
+}
+
+
+
+
+/*没获奖*/
+#lotteryFailure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#lotteryFailure .inner{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left:0;
+	margin-top: -218px;
+}
+
+#lotteryFailure button{
+	margin-top: 40px;
+}
+#lotteryFailure .weui-btn_primary{
+	color: #ffecaa;
+	background: url(../img/btn_bg.png) repeat-x center;
+	width: 50%;
+	font-size: 16px;
+}
+
+/*获奖成功*/
+#lotteryWin{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#lotteryWin h2{
+	text-align: center;
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+#lotteryWin .winMsg{
+	background: url(../img/winning_top.png) no-repeat top center;
+	width: 280px;
+	margin:0 auto;
+	color: #fff1d9;
+	padding-top: 6px;
+	margin-bottom: 30px;
+}
+#lotteryWin .winMsg h3{
+	text-align: center;
+	font-size:18px;
+	font-weight: normal;
+	background: rgb(251,98,119);
+	padding-top: 12px;
+	margin:0 5px;
+	margin-top: -1px;
+}
+#lotteryWin .winMsgContent{
+	background: url(../img/winning_bottom.png) bottom center no-repeat;
+	margin:0 5px;
+	margin-top: -1px;
+	padding-bottom: 4px;
+}
+#lotteryWin .winMsgContent p{
+	background: rgb(251,98,119);
+	padding:8px 15px 15px;
+	color: #fff1d9;
+	font-size: 16px;
+	margin:0;
+}
+
+#lotteryWin  .mui-checkbox input[type=checkbox]:checked:before,#signPage .mui-radio input[type=radio]:checked:before{
+    color: rgb(46,133,203);
+}
+#lotteryWin  input[type=text]:focus,#signPage  input[type=tel]:focus,#signPage textarea:focus{
+    border:1px solid rgb(46,133,203);
+}
+#lotteryWin  .mui-btn-blue,#lotteryWin .mui-btn-primary,#lotteryWin input[type=submit]{
+	background-color:rgb(46,133,203);
+	border:1px solid rgb(46,133,203);
+	margin-top: 20px;
+	padding:8px;
+}
+
+#lotteryWin .weui_btn_primary:not(.weui_btn_disabled):active,#lotteryWin  .mui-btn-blue:active{
+    background-color:#0062cc;
+}
+

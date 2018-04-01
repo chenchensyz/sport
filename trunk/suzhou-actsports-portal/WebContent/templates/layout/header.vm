@@ -1,0 +1,23 @@
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="telephone=no" name="format-detection"> 
+    <meta http-equiv="Expires" CONTENT="0">
+        <meta http-equiv="Cache-Control" CONTENT="no-cache">
+        <meta http-equiv="Pragma" CONTENT="no-cache">
+    <title>$!title</title>
+    <link href="$!{cdn_server}/libs/mui/css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+    #foreach ($c in $css)
+    <link rel="stylesheet" href="$!{cdn_server}/css/${c}.css?v1.3.2" />
+    #end
+    <script type="text/javascript">
+    	var BASEPATH = '$!{cdn_server}/';
+    	#foreach($entry in $js_global_parameters.entrySet())
+    	var $entry.getKey() = '$!entry.getValue()';
+    	#end
+    </script>
+</head>

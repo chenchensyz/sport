@@ -1,0 +1,124 @@
+body{
+  background: url(../img/bg2.png);
+}
+#collectPage  .mui-btn-blue,.signPage .mui-btn-primary,#collectPage input[type=submit]{
+    background-color:rgb(46,133,203);
+    border:1px solid rgb(46,133,203);
+    margin-top: 20px;
+    padding:8px;
+    font-size: 16px;
+}
+#collectPage  input[type=text]:focus,#collectPage  input[type=tel]:focus{
+    border:1px solid rgb(46,133,203);
+  }
+
+#collectPage .textarea-card{
+	margin:20px 10px 0px 10px;
+}
+
+#collectPage .textarea-card h5{
+	color: #fff;
+	line-height: 25px;
+	font-size: 16px;
+}
+#collectPage .textarea-card textarea{
+	margin-bottom: 0;
+	min-height: 130px;
+	padding:0;
+	font-size: 14px;
+	border:none;
+}
+#collectPage .textarea-card .mui-input-row{
+	position: relative;
+	padding:10px;
+	padding-bottom: 20px;
+	background: #fff;
+	border-radius: 3px;
+	border:1px solid rgba(0,0,0,.2);
+}
+#collectPage .textarea-card .mui-input-row p{
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	color: #999;
+	z-index:10;
+	margin-bottom: 5px;
+}
+#collectPage .textarea-card .mui-input-row p.red{
+	color: red;
+}
+#collectPage .textarea-card .mui-input-row p em{
+	font-style: normal;
+	font-size: 12px;
+}
+#collectPage .textarea-card .mui-input-row p span{
+	padding:0 2px;
+}
+
+
+
+
+#collectPage .img-card ul{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-left: -10px;
+	padding:0;
+}
+#collectPage .img-card ul li{
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#collectPage .img-card ul li img{
+	width: 57px;
+	height: 57px;
+}
+#collectPage .img-card ul li .del{
+	position: absolute;
+	right: -8px;
+	top: -8px;
+	background: #ff5151;
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+}
+#collectPage .img-card ul li .del .mui-icon{
+	font-size:18px; 
+	color: #fff;
+}
+#collectPage .upload{
+	display: inline-block;
+	width: 57px;
+	height: 57px;
+	border:1px dashed #ccc;
+	line-height: 50px;
+	text-align: center;
+	font-size: 40px;
+	color: #ccc;
+	vertical-align: top;
+	margin-left: 10px;
+}
+#collectPage  .btn-margin{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#collectPage .file-card ul{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-left: -10px;
+}
+#collectPage .file-card ul li{
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#collectPage .mui-card-content-inner{
+	padding:10px 15px;
+}

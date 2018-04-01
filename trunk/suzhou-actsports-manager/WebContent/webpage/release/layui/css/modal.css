@@ -1,0 +1,68 @@
+.header {
+	margin-top: 30px;
+	padding-left: 30px;
+}
+
+.layui-nav-child dd:hover {
+	background: #ccc;
+	cursor: pointer;
+}
+
+.layui-nav-child dd {
+	color: #000;
+	padding-left: 10px;
+}
+
+.layui-nav-child {
+	border-bottom: 1px solid #ccc;
+}
+
+.tockken {
+	display: none;
+}
+
+.wxid {
+	display: none;
+}
+
+.laytable-cell-1-0 {
+	width: 50px
+}
+
+.laytable-cell-1-id {
+	width: 80px
+}
+
+.laytable-cell-1-username {
+	width: 320px
+}
+
+.laytable-cell-1-remark {
+	width: 150px
+}
+
+.laytable-cell-1-sign {
+	width: 150px
+}
+.fzGroups {
+	margin-left: 20px;
+	color: #3aa3ff;
+}
+.ffzz {
+	display: none;
+}
+.parameter {
+	display: none;
+}
+.yycc {
+	display: none;
+}
+.abc{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	z-index: 9999;
+}
+.appid {
+	display: none;
+}

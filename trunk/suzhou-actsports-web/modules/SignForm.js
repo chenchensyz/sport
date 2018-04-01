@@ -1,0 +1,96 @@
+import React, { Component, PropTypes } from 'react';
+import {connect} from 'react-redux';
+import { hashHistory } from 'react-router';
+import validator from 'validator';
+import 'whatwg-fetch';
+import {doValue,toggleCheck,updateNum,checkToast,toggleRadio,changeMsg, updateStatus,postData,buttonFlag} from '../actions/toDoAction';
+import formatForm from '../utils/formatForm';
+import Toast from '../components/Toast';
+import FormList from '../components/FormList';
+import configPath from '../config/dev';
+require('../static/style/signPage.css');
+
+class SignForm extends Component{
+    handleClick() {      
+        let data = formatForm(this,this.props.FormList),{dispatch,enterID,sessionID}=this.props;
+        
+        if(data){
+          let url=sessionID?configPath.path + 'signUp/index?sessionId='+sessionID:configPath.path + 'signUp/index';
+          data.entryId = enterID;
+          
+          dispatch(buttonFlag(true));
+          postData(url,data).then((data) => {
+            
+              if(data.status=='error'){
+                dispatch(changeMsg(data.message));
+                dispatch(checkToast(true));
+                window.setTimeout(function(){
+                    dispatch(checkToast(false));
+                    //dispatch(updateStatus("doing"));
+                    hashHistory.push('/'+enterID);
+                },2000);
+              }
+              if(data.status=='success'){
+                dispatch(updateNum(data.currentNum));
+                dispatch(updateStatus(data.status));
+                dispatch(updateMsg(data.message));
+               //hashHistory.push('/successPage/'+enterID);
+              }
+              if(data.status=='end'){
+                dispatch(changeMsg('活动已经结束了'));
+                dispatch(updateMsg(data.message));
+                dispatch(checkToast(true));
+                window.setTimeout(function(){
+                    dispatch(checkToast(false));
+                    dispatch(updateStatus(data.status));
+                },2000);
+              }
+              dispatch(buttonFlag(false));
+          })
+          .catch((e) => { console.log(e.message) });
+        }else{
+            dispatch(checkToast(true));
+            var setTime = setTimeout(function(){
+                dispatch(checkToast(false));
+            },2000);
+        }
+
+    }
+
+    render(){
+            const{dispatch,buttonToggle} = this.props;
+            return(
+
+                <div id="signPage">
+                        <h2 className="title"><img src={configPath.staticPath+"static/img/new_title.png"} /></h2>
+                        <div className="mui-card">
+                              <div className="mui-card-content">
+                                    <div className="mui-card-content-inner">
+                                          <FormList formLists={this.props.FormList} handleChoose = {(name,id)=>dispatch(toggleCheck(name,id))} handleRadio={(name,id)=>dispatch(toggleRadio(name,id))} handleChg={(id,text)=>dispatch(doValue(id,text))}/>
+                                          {buttonToggle?
+                                            <button disabled className="mui-btn mui-btn-block mui-btn-blue">提交信息</button>:
+                                            <button onClick={() => this.handleClick()} className="mui-btn mui-btn-block mui-btn-blue">提交信息</button>
+                                          }
+                                         
+                                    </div>
+                              </div>
+                          </div>
+                          <Toast showToast = {this.props.showToast} validateMsg={this.props.validateMsg} />
+                </div>
+                  )
+              }
+}
+
+
+function select(state) {
+      return{
+            FormList:state.formList,
+            validateMsg:state.validateMsg,
+            showToast:state.showToasts,
+            enterID:state.enterID,
+            sessionID:state.sessionID,
+            buttonToggle:state.buttonToggle
+      }
+}
+
+export default connect(select)(SignForm);

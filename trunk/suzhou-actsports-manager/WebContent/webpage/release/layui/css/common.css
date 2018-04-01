@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+  font-size: 14px;
+}
+body {
+  color: #222;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+.text-border {
+  border: #e5e5e5 solid 1px;
+  background: #fff;
+  font-size: 14px;
+  color: #333;
+  padding: 6px 12px;
+}
+.value-close {
+  background: url("../img/bg-icons.png") 0 -420px no-repeat;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin: 5px 0 0 10px;
+}
+.value-close:hover {
+  background: url("../img/bg-icons.png") 0 -444px no-repeat;
+}

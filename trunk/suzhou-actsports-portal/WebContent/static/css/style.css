@@ -1,0 +1,2046 @@
+div,
+p,
+span,
+li,
+ul,
+input,
+button,
+img,
+select,
+option {
+	padding: 0;
+	margin: 0;
+}
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0;
+}
+.button-margin {
+	margin: 30px 10px 20px;
+}
+.mui-table-view-cell input{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.mui-table-view-cell{
+	padding:12px 15px;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	margin:-12px -15px;
+}
+em{
+	font-style: normal;
+}
+/*body {
+	font-family: 'STHeiti', 'Noto Sans Han';
+}*/
+
+.mui-table-view-cell>a:not(.mui-btn).mui-active{
+	background: none;
+}
+.record-list .mui-table-view-cell>a:not(.mui-btn){
+	margin: 0;
+	padding: 0;
+}
+.account .mui-table-view-cell span{
+	text-align:left;
+	display: inline;
+}
+.mui-input-group .mui-input-row {
+	height: auto;
+}
+
+.mui-table-view-cell h4{
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.input-error {
+	font-size: 12px;
+	color: orange;
+	padding-left: 35%;
+}
+.record-list .charge-record .mui-table-view-cell{
+	padding-right: 15px;
+}
+.gas-charge .mui-table-view-cell span{
+	width: auto;
+	display:inline;
+}
+
+.my-account{
+	background-color: #fff;
+}
+.my-account.chargeIndex{
+	background-color: #efeff4;
+}
+.loading{
+	padding:10px 0;
+	font-weight: bold;
+	text-align: center;
+}
+.loading img{
+	width: 40px;
+}
+.loading .mui-spinner{
+	vertical-align:-7px;
+	margin-right: 5px;
+}
+/*燃气充值*/
+.chargePost em {
+	font-style: normal;
+	color: #666;
+	font-size: 16px;
+}
+
+.chargePost span {
+	font-size: 16px;
+}
+
+.chargePost .mui-table-view {
+	padding: 10px 0;
+}
+.chargePost .mui-table-view-cell span {
+	float: right;
+}
+
+.chargePost .mui-table-view-cell:after {
+	height: 0
+}
+
+.chargePost .mui-table-view-cell {
+	padding:8px 15px;
+}
+
+.chargePost .mui-icon.mui-icon-help {
+	font-size: 20px;
+}
+
+.chargePost .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+.chargePost .mui-table-view-cell input {
+	width: 60%;
+	float: right;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	height: auto;
+	border: none;
+	line-height: 20px;
+}
+
+.chargePost .mui-table-view{
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+}
+.chargePost .mui-table-view+.mui-table-view{
+	box-shadow: none;
+	margin-top: 3px;
+}
+.chargePost .mui-table-view:before{
+	height: 0;
+}
+.chargePost .mui-table-view:after{
+	height: 0;
+}
+.chargePost .mui-table-view+.mui-table-view:after{
+	height: 1px;
+}
+.chargePost .otherHref{
+	text-align: center;
+	margin-top: 30px;
+}
+.chargePost .otherHref a{
+	color:#002d64;
+	padding:0 10px 0 30px;
+	font-size: 14px;
+}
+.chargePost .mui-btn-block {
+	background: rgb(20, 47, 89);
+	color: #fff;
+	border: none;
+}
+.chargePost .button-margin{
+	margin: 50px 15px 0 15px;
+}
+.chargePost .button-margin p {
+	font-size: 12px;
+	color: #333;
+}
+
+.chargePost .button-margin p a {
+	color: rgb(20, 47, 89);
+}
+
+.chargePost .history{
+	background: url(../img/time_icon.png) no-repeat 12px center;
+	background-size: 15px
+}
+.chargePost .showGas{
+	background: url(../img/price_desc.png) no-repeat 12px center;
+	background-size: 15px
+}
+
+
+/*服务协议*/
+.serviceProtocol{
+	padding: 10px;
+}
+.serviceProtocol h5{
+	color: #333;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.serviceProtocol p{
+	text-indent: 2em;
+	color: #333;
+}
+#GASAIRLINES a,#REPAIR a{
+	margin-right: 0px;
+	padding-right: 10px;
+	color: #333;
+}
+#GASAIRLINES,#REPAIR{
+	padding-right: 0px;
+}
+#showGasPicker.mui-table-view-cell>a:not(.mui-btn).mui-active{
+	background: none;
+}
+#showGasPicker.mui-table-view-cell.picker .mui-icon{
+	/*vertical-align:-4px;*/
+	text-align: left;
+	/*transform:translateY(10%);*/
+}
+.addressInfo{
+	width:72%;
+	display:inline-block;
+	vertical-align:top;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.mui-table-view-cell span{
+	width:72%;
+	display:inline-block;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	text-align: right;
+}
+.mui-table-view-cell span.addressInfo{
+	width:72%;
+	display:inline-block;
+	vertical-align:top;
+	word-break: break-all;
+	overflow:auto;
+	white-space:normal;
+	text-overflow:initial
+}
+.history-bill .mui-table-view-cell.mui-active{
+	background: #fff;
+}
+/*我的反馈*/
+.messageList li time{
+	padding-left: 30px;	
+}
+.messageList .mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right:-110px;
+}
+.messageList .mui-table-view-cell h4{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*停气详情*/
+.noticeDetail h3{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.noticeDetail .mui-content{
+	padding:10px;
+}
+.noticeDetail .mui-content span{
+	font-weight: bold;
+}
+.noticeDetail .mui-content p{
+	padding-bottom: 10px;
+}
+/*.noticeDetail p{
+	text-indent: 2em;
+}
+.noticeDetail p.time{
+	text-indent: 0em;
+}*/
+
+/*充值记录*/
+
+.charge-record .mui-content>.mui-table-view:first-child {
+	margin-top: 0
+}
+
+.charge-record .mui-table-view-cell {
+	overflow: hidden;
+}
+
+.charge-record h3 {
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.charge-record .record-item-lf {
+	font-size: 14px;
+	display: inline-block;
+	width: 70%;
+}
+
+.charge-record .record-item-rt {
+	float: right;
+	text-align: center;
+	min-width: 30px;
+}
+
+.charge-record h3 span {
+	padding-left: 20px;
+	width: auto;
+	display: inline;
+}
+
+.charge-record .record-item-rt span {
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	width: auto;
+}
+
+.charge-record .record-item-rt strong {
+	font-weight: normal;
+	color: orange;
+	font-size: 13px;
+}
+
+.charge-record .record-item-rt strong.failue {
+	color: #ab2b2a;
+}
+
+.charge-record .mui-table-view-cell {
+	padding-left: 65px;
+}
+.charge-record  .mui-table-view-chevron .mui-table-view-cell{
+	padding-right:15px;
+}
+.charge-record .mui-table-view-cell.home {
+	background: url(../img/my_gas_icon1.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.charge-record .mui-table-view-cell.friend {
+	background: url(../img/my_gas_icon2.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.charge-record .mui-table-view-cell.children {
+	background: url(../img/my_gas_icon3.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.charge-record .mui-table-view-cell.parent {
+	background: url(../img/my_gas_icon5.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.charge-record .mui-table-view-cell.other {
+	background: url(../img/my_gas_icon6.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.charge-record .mui-table-view-cell.landlord {
+	background: url(../img/my_gas_icon4.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+
+/*燃气充值*/
+
+.gas-charge em {
+	font-style: normal;
+}
+.gas-charge .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+	border: none;
+	padding: 0
+}
+.gas-charge .mui-grid-view.mui-grid-9  .mui-control-item{
+	padding:5px 0;
+}
+
+.gas-charge .mui-grid-view.mui-grid-9 {
+	background: #efeff4;
+	margin-top: 12px;
+}
+.gas-charge .mui-table-view-cell.mui-col-xs-4.mui-active .grid-content{
+	border:1px solid #ccc;
+}
+
+
+.gas-charge  .mui-segmented-control .mui-control-item.mui-active .grid-content span, 
+.gas-charge .mui-segmented-control .mui-control-item.mui-active .grid-content p{
+	color: #fff;
+}
+
+.gas-charge .mui-segmented-control .mui-control-item.mui-active .grid-content,.gas-charge .mui-table-view-cell.mui-col-xs-4.active .grid-content{
+	background:#002d64;
+}
+.gas-charge .mui-table-view-cell.mui-col-xs-4.active.inputLi .grid-content{
+	background:#fff;
+}
+.gas-charge .mui-table-view-cell.mui-col-xs-4.active.inputLi .grid-content span{
+	color:#002d64
+}
+.gas-charge .mui-table-view-cell.mui-col-xs-4.active.inputLi .grid-content input{
+	color:#002d64
+}
+.gas-charge .grid-content {
+	background: #fff;
+	border: 1px solid #002d64;
+	margin: 5px;
+	font-size: 14px;
+	padding: 12px 0;
+	border-radius: 5px;
+}
+
+.gas-charge .grid-content p {
+	font-size: 16px;
+}
+
+.gas-charge .grid-content strong {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.gas-charge .grid-content span,.gas-charge .grid-content p {
+	color: #002d64;
+}
+
+
+.gas-charge .mui-table-view-cell.active .grid-content p,
+.gas-charge .mui-table-view-cell.active .grid-content span {
+	color: #fff;
+}
+.gas-charge .mui-table-view-cell.active .grid-content{
+	border:1px solid #002d64;
+}
+
+.gas-charge .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+
+.gas-charge .current-gas {
+	background: #fdf0d9;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+.gas-charge .current-gas p {
+	color: #002d64;
+	font-size: 14px;
+}
+
+.gas-charge .current-gas a {
+	color: #002d64;
+}
+
+.gas-charge .current-gas a .mui-icon {
+	font-size: 18px;
+}
+
+.gas-charge .mui-table-view-cell em {
+	font-size: 14px;
+	color: #999;
+	display: inline-block;
+	width: 30%;
+}
+
+.gas-charge .mui-table-view-cell span {
+	font-size: 16px;
+}
+
+.gas-charge .mui-table-view-cell .mui-icon {
+	color: #999;
+	font-size: 16px;
+}
+
+.gas-charge .mui-table-view:first-child:after {
+	height: 0;
+}
+
+.gas-charge .charge-record {
+	text-align: center;
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+}
+
+.gas-charge .charge-record p {
+	color: #002d64;
+	display: inline-block;
+	padding-left: 23px;
+	font-size: 12px;
+	background: url(../img/record_icon.png) no-repeat left center;
+	background-size: 18px;
+}
+
+.gas-charge .charge-record p a {
+	color: #002d64;
+	padding-right:5px;
+}
+
+
+/*安装维修*/
+
+.install-page .mui-navigate-right:after {
+	content: '\e581';
+}
+
+.install-page .mui-content {
+	background: none;
+}
+
+.install-page {
+	/*background: url(../img/install_bg.png) top center no-repeat;
+	background-size: 200% 165%;*/
+	background-color: #f2f2f2;
+}
+
+.install-page h2 {
+	font-size: 16px;
+	background: none;
+	margin: 0;
+	padding-left: 28px;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	display: none;
+}
+
+.install-page .mui-table-view-cell.picker {
+	/*background: url(../img/install_title.png) no-repeat 15px 17px;
+	background-size: 20px;*/
+	padding-left:15px;
+	font-size: 15px;
+	line-height: 28px;
+	color: #333;
+}
+
+.install-page .mui-table-view-cell.picker .mui-icon {
+	font-size: 20px;
+	vertical-align: -1px;
+}
+
+.install-page .mui-table-view .mui-media-object {
+	height: 30px;
+	max-width: 38px;
+	line-height: 38px;
+	margin-top: 5px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+.install-page .mui-media-body {
+	margin-left: 50px;
+}
+.install-page .mui-table-view:before{
+	height: 0;
+}
+.install-page section+section .mui-table-view{
+	background: none;
+}
+.install-page section+section .mui-table-view li+li{
+	margin-top: 10px;
+}
+.install-page section .mui-table-view-cell{
+	background: #fff;
+}
+.install-page section+section .mui-table-view-cell:after{
+	height: 0;
+}
+.install-page .vcc-top-button a{
+	color: #333;
+}
+.install-page h2:before {
+	content: '';
+	position: absolute;
+	left: 15px;
+	top: 12px;
+	width: 4px;
+	background: #002d64;
+	height: 25px;
+}
+
+.install-page .mui-content>.mui-table-view:first-child {
+	margin: 0;
+	border: none;
+	background: none;
+}
+
+.install-page .mui-content>.mui-table-view:first-child:after {
+	background: none;
+}
+
+.install-page .module+.module {
+	margin-top: 10px;
+}
+
+.install-page .mui-table-view:after{
+	height: 0;
+}
+.install-page .mui-table-view-cell p {
+	font-size: 12px;
+}
+
+.install-page .mui-table-view-cell>a:not(.mui-btn) {
+	font-size: 16px;
+}
+
+
+/*员工信息*/
+
+.staff-info {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.staff-info img {
+	width: 100%;
+	height: 100%;
+}
+
+.staff-info .details {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	left: 15px;
+	padding: 15px 0;
+	text-align: center;
+	line-height: 25px;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.staff-info .details dd {
+	margin-left: 0;
+	color: #666;
+	font-size: 16px;
+}
+.staff-info .mui-content{
+	width: 100%;
+	height: 100%;
+}
+
+/*选择燃气公司*/
+
+.index-list .mui-indexed-list-bar {
+	background: #fff;
+}
+
+.index-list .mui-indexed-list-bar a {
+	color: #007aff;
+	font-weight: bold;
+}
+
+.index-list .mui-indexed-list-group {
+	border: none;
+}
+
+.index-list .mui-indexed-list {
+	background: none;
+}
+
+.index-list .mui-indexed-list-search {
+	margin: 8px 15px;
+	border-radius: 5px;
+}
+
+.index-list .mui-search .mui-placeholder {
+	font-size: 14px;
+	color: #999999;
+}
+
+.index-list .mui-search .mui-placeholder .mui-icon {
+	color: #999;
+}
+
+.index-list .mui-indexed-list-group {
+	background: #F3F3F3;
+}
+
+.index-list .mui-table-view-divider:before {
+	height: 0;
+}
+
+.index-list .mui-table-view-divider:after {
+	height: 0;
+}
+
+.index-list .mui-indexed-list-group {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.index-list .mui-table-view-divider {
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.index-list .mui-table-view-cell.choose p {
+	color: #999;
+}
+
+.index-list .mui-table-view-cell.choose p.title {
+	color: #999;
+	padding-bottom: 5px;
+}
+
+.index-list .mui-table-view-cell.choose h4 {
+	font-size: 18px;
+	color: #002d64
+}
+
+
+/*登录*/
+
+body.login {
+	background: #fff;
+}
+
+body.login .mui-btn-primary {
+	background: #003567;
+	border: 1px solid #003567;
+}
+body.login .mui-input-group:after{
+	left: 15px;
+	height: 0;
+}
+body.login .mui-input-group .mui-input-row:after{
+	-webkit-transform:scaleY(.3);
+	transform:scaleY(.3);
+}
+body.login .mui-input-row label{
+	width: 30%;
+	font-size: 16px;
+	padding:18px 15px;
+}
+body.login .mui-input-row input{
+	font-size: 16px;
+	margin-top: 8px;
+}
+.login .mui-content {
+	background: #fff;
+	padding-top: 10px;
+}
+.login .mui-input-group:before{
+	height: 0;
+}
+.login .mui-input-row label~input{
+	width: 70%
+}
+
+.login .mui-input-row.confirm input {
+	width: 40%;
+	float: none;
+}
+
+.login .mui-input-row.confirm .mui-btn-primary {
+	background: none;
+	color: #003567;
+	border: none;
+	border-left: 1px solid #003567;
+	border-radius: 0;
+	margin-top: 18px;
+	padding-left: 10px;
+	float: right;
+	margin-right: 15px;
+	width: 80px;
+	text-align: center;
+}
+.login .input-error{
+	padding-left: 30%;
+}
+.login .mui-btn-block {
+	padding: 8px 0;
+	letter-spacing: 1em;
+	margin-top: 18px;
+	border-radius: 5px;
+	text-indent: 1em;
+}
+
+.login .agree {
+	padding-left: 15px;
+	color: #333;
+	font-size: 14px;
+}
+
+.login .agree a {
+	color: #003567;
+}
+
+
+/*账户信息*/
+
+.account-info em {
+	font-style: normal;
+	display: inline-block;
+	width: 25%;
+	font-size: 16px;
+	color: #999
+}
+.account-info .mui-table-view-cell span{
+	font-size: 16px;
+}
+.account-info .mui-table-view-cell{
+	padding:14px 15px;
+}
+.account-info .mui-content>.mui-table-view:first-child{
+	margin-top: 0;
+}
+#delAccount {
+	text-align: center;
+	margin-top: 15px;
+}
+
+#delAccount a {
+	color: #002d64;
+	font-size: 13px;
+}
+
+#delAccount .mui-icon.mui-icon-trash {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.account-info .mui-table-view-chevron {
+	margin-top: 15px;
+}
+
+
+/*历史账单*/
+
+.history-bill em {
+	font-style: normal;
+	color: #999;
+	letter-spacing: 2em;
+	font-size: 14px;
+}
+
+.history-bill span {
+	font-size: 14px;
+}
+
+.history-bill .mui-table-view {
+	padding: 8px 0;
+}
+
+.history-bill .list ul {
+	margin-top: 15px;
+}
+
+.history-bill .mui-table-view li span {
+	float: right;
+	display: inline;
+	width: auto;
+}
+
+.history-bill .mui-table-view-cell:after {
+	height: 0
+}
+
+.history-bill .mui-table-view li {
+	padding: 0px 15px;
+	line-height: 30px;
+}
+
+.history-bill .mui-table-view li.unit em {
+	letter-spacing: 0em;
+}
+
+.history-bill .mui-icon.mui-icon-help {
+	font-size: 20px;
+}
+
+.history-bill .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+
+.gas-detail {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	z-index: 100;
+}
+
+.gas-detail p {
+	margin-top: 20%;
+	font-size: 16px;
+	color: #333;
+}
+
+.gas-detail .mui-icon-closeempty {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -30px;
+	font-size: 60px;
+}
+
+.gas-detail dl {
+	font-size: 16px;
+}
+
+.gas-detail dt {
+	margin-bottom: 5px;
+}
+
+.gas-detail dl dd {
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+
+/*账单详情*/
+
+.bill-detail em {
+	font-style: normal;
+	color: #999;
+	letter-spacing: 2em;
+	font-size: 14px;
+}
+
+.bill-detail span {
+	font-size: 14px;
+}
+
+.bill-detail .mui-table-view {
+	padding: 8px 0;
+}
+
+.bill-detail ul+ul {
+	margin-top: 15px;
+}
+
+.bill-detail .mui-table-view-cell span {
+	float: right;
+}
+
+.bill-detail .mui-table-view-cell:after {
+	height: 0
+}
+
+.bill-detail .mui-table-view-cell {
+	padding: 5px 15px;
+}
+
+.bill-detail .mui-table-view-cell.unit em {
+	letter-spacing: 0em;
+}
+
+.bill-detail .mui-icon.mui-icon-help {
+	font-size: 20px;
+}
+
+.bill-detail .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+.bill-detail .mui-table-view:after{
+	height: 0;
+}
+.bill-detail .mui-table-view:before{
+	height: 0;
+}
+
+/*账单缴费*/
+
+.charge-index li img {
+	height: 30px;
+}
+
+.charge-index {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: transparent url(../img/charge_index_bg.png) center bottom no-repeat;
+	background-size: 100%;
+}
+
+.charge-index .mui-content {
+	background: none;
+	padding: 0 15px;
+}
+
+.charge-index li a {
+	color: #002d64;
+}
+
+.charge-index .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+	color: #002d64;
+}
+
+.charge-index h4.title {
+	color: #002d64;
+	text-align: center;
+	padding-top: 25%;
+	margin-bottom: 12%;
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.charge-index .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+	border-right: 1px solid #bbc6d4;
+	border-bottom: 1px solid #bbc6d4;
+}
+
+.charge-index .mui-grid-view.mui-grid-9 {
+	border-top: 1px solid #bbc6d4;
+	border-left: none;
+	background-color:transparent;
+}
+
+.charge-index .mui-grid-view.mui-grid-9 .mui-table-view-cell:nth-child(3n) {
+	border-right: none;
+}
+
+
+/*缴费记录*/
+
+.charge-detail em {
+	font-style: normal;
+	color: #999;
+	letter-spacing: 2em;
+	font-size: 14px;
+}
+
+.charge-detail span {
+	font-size: 14px;
+}
+
+.charge-detail .mui-table-view {
+	padding: 10px 0;
+}
+
+.charge-detail ul+ul {
+	margin-top: 15px;
+}
+
+.charge-detail .mui-table-view-cell span {
+	float: right;
+	width: auto;
+}
+
+.charge-detail .mui-table-view-cell:after {
+	height: 0
+}
+.charge-detail input{
+	width: 60%;
+	float: right;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	height: auto;
+	border: none;
+}
+
+.charge-detail .mui-table-view-cell {
+	padding: 2px 15px;
+}
+
+.charge-detail .mui-table-view-cell.unit em {
+	letter-spacing: 0em;
+}
+
+.charge-detail .mui-icon.mui-icon-help {
+	font-size: 20px;
+}
+
+.charge-detail .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+
+.charge-detail .mui-content>.mui-table-view>.mui-table-view-cell:first-child {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.charge-detail .mui-content>.mui-table-view>.mui-table-view-cell:first-child em,
+.charge-detail .mui-content>.mui-table-view>.mui-table-view-cell:first-child span {
+	font-size: 16px;
+}
+
+.charge-detail .mui-content>.mui-table-view>.mui-table-view-cell:first-child:after {
+	height: 1px;
+}
+
+.charge-detail .mui-content>.mui-table-view>.mui-table-view-cell:nth-child(2) {
+	padding-top: 12px;
+}
+
+
+/*缴费账单*/
+
+.charge-bill em {
+	font-style: normal;
+	color: #999;
+	letter-spacing: 2em;
+	font-size: 16px;
+}
+.charge-bill input{
+	    width: 60%;
+	    float: right;
+	    text-align: right;
+	    padding: 0;
+	    margin: 0;
+	    font-size: 14px;
+	    height: auto;
+	    border: none;
+}
+.charge-bill span {
+	font-size: 16px;
+}
+
+.charge-bill .mui-table-view {
+	padding: 10px 0;
+}
+
+.charge-bill ul+ul {
+	margin-top: 15px;
+}
+
+.charge-bill .mui-table-view-cell span {
+	float: right;
+	width: 76%;
+	white-space: inherit;
+}
+
+.charge-bill .mui-table-view-cell:after {
+	height: 0
+}
+.charge-bill .mui-table-view-cell.input{
+	margin-top: 9px;
+	padding-top: 15px;
+	box-shadow: 0px -1px 2px #ccc;
+}
+
+.charge-bill .mui-table-view-cell {
+	padding: 4px 15px;
+}
+
+.charge-bill .mui-table-view-cell.unit em {
+	letter-spacing: 0em;
+}
+
+.charge-bill .charge-record {
+	text-align: center;
+}
+
+.charge-bill .charge-record p {
+	color: #002d64;
+	display: inline-block;
+	font-size: 12px;
+	padding-bottom: 30px;
+}
+
+.charge-bill .charge-record p a {
+	color: #002d64;
+	padding-left: 30px;
+	padding-right: 5px;
+	line-height: 20px;
+	display: inline-block;
+}
+
+.charge-bill .charge-record p a.history {
+	background: url(../img/time_icon.png) no-repeat 10px center;
+	background-size: 15px;
+}
+.charge-bill .charge-record p a.chargeHistory{
+	background: url(../img/record_icon.png) no-repeat 12px center;
+	background-size: 15px
+}
+.charge-bill .mui-btn-primary:disabled{
+	background: rgb(189,189,189);
+	border:1px solid rgb(189,189,189);
+}
+
+.charge-bill .charge-record p a.my-num {
+	background: url(../img/record_icon.png) no-repeat 8px center;
+	background-size: 18px;
+}
+
+.charge-bill .mui-btn-block {
+	padding: 8px 0;
+	margin-top: 18px;
+	border-radius: 5px;
+}
+
+.charge-bill .mui-btn-primary {
+	background: #002d64;
+	border: 1px solid #002d64;
+}
+.charge-bill .mui-btn-primary:
+.charge-bill figure {
+	margin: 0;
+}
+
+.charge-bill figure figcaption {
+	display: inline-block;
+	color: #333;
+	font-size: 18px;
+	/*font-weight: bold;*/
+	float: left;
+	line-height: 36px;
+	/*padding-left: 10px;*/
+}
+
+.charge-bill figure {
+	vertical-align: top;
+	overflow: hidden;
+	margin:0;
+/*	padding-bottom: 11px;*/
+}
+
+.charge-bill figure img {
+	width: 60px;
+	float: left;
+	display: none;
+}
+
+.charge-bill .mui-content,
+.charge-bill {
+	background: #f2f2f2;
+}
+
+.charge-bill .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+
+.charge-bill .money {
+	color: #333;
+	margin: 30px 0;
+	text-align: center;
+	font-size: 30px;
+}
+.charge-bill .error{
+	text-align: center;
+    line-height: 40px;
+    background: #ccc;
+    color: rgb(204,0,51);
+}
+
+
+/*缴费充值*/
+
+.charge-info,
+.charge-info .mui-content {
+	background: #fff;
+}
+
+.charge-info em {
+	font-style: normal;
+}
+
+.charge-info .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+	border: none;
+	padding: 0
+}
+
+.charge-info .mui-grid-view.mui-grid-9 {
+	background: #efeff4;
+}
+.charge-info .mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 15px;
+}
+.charge-info .grid-content {
+	background: #fff;
+	border: 1px solid #ddd;
+	margin: 5px;
+	font-size: 14px;
+	padding: 8px 0;
+	border-radius: 5px;
+}
+
+.charge-info .grid-content p {
+	font-size: 12px;
+}
+
+.charge-info .grid-content strong {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.charge-info .grid-content span {
+	color: #8f8f94;
+}
+
+.charge-info .mui-table-view-cell.active .grid-content {
+	color: orange;
+	border: 1px solid orange;
+}
+
+.charge-info .mui-table-view-cell.active .grid-content p,
+.charge-info .mui-table-view-cell.active .grid-content span {
+	color: orange;
+}
+
+.charge-info .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+
+.charge-info .current-gas {
+	background: #fdf0d9;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+.charge-info .current-gas p {
+	color: #002d64;
+	font-size: 14px;
+}
+
+.charge-info .current-gas a {
+	color: #002d64;
+}
+
+.charge-info .current-gas a .mui-icon {
+	font-size: 18px;
+}
+
+.charge-info .mui-table-view-cell em {
+	font-size: 14px;
+	color: #999;
+	display: inline-block;
+	width: 35%;
+}
+
+.charge-info .mui-table-view-cell input {
+	width: 60%;
+	font-size: 16px;
+	border: none;
+	padding: 0;
+	margin-bottom: 0;
+	height: auto;
+}
+
+.charge-info .mui-table-view-cell span {
+	font-size: 16px;
+	width: auto;
+	display: inline;
+}
+
+.charge-info .mui-table-view-cell .mui-icon {
+	color: #999;
+	font-size: 16px;
+}
+
+.charge-info .mui-table-view:first-child:after {
+	height: 0;
+}
+
+.charge-info .charge-record {
+	text-align: center;
+}
+
+.charge-info .tip img {
+	width: 100%;
+}
+
+.charge-info .tip {
+	margin: 10px 0px
+}
+
+.charge-info .mui-table-view:before {
+	height: 0;
+}
+
+.charge-info .charge-record p {
+	color: #002d64;
+	display: inline-block;
+	font-size: 12px;
+	padding-bottom: 30px;
+}
+
+.charge-info .charge-record p a {
+	color: #002d64;
+	padding-left: 30px;
+	padding-right: 5px;
+	line-height: 20px;
+	display: inline-block;
+}
+
+.charge-info .charge-record p a.history {
+	background: url(../img/time_icon.png) no-repeat 10px center;
+	background-size: 15px;
+}
+
+.charge-info .charge-record p a.my-num {
+	background: url(../img/record_icon.png) no-repeat 8px center;
+	background-size: 18px;
+}
+
+#priceDesc {
+	background: url(../img/price_desc.png) no-repeat 8px center;
+	background-size: 16px;
+	padding-left:26px;
+	display:inline-block;
+}
+
+.charge-info .mui-btn-block {
+	padding: 8px 0;
+	letter-spacing: 1em;
+	margin-top: 18px;
+	border-radius: 5px;
+	text-indent: 1em;
+}
+
+.charge-info .mui-btn-primary {
+	background: #002d64;
+	border: 1px solid #002d64;
+}
+
+
+/*留言意见*/
+
+.feedbackPage {
+	font-size: 16px;
+}
+
+.feedbackPage em {
+	font-style: normal;
+	display: inline-block;
+	width: 25%;
+	font-size: 16px;
+	color: #333
+}
+
+.feedbackPage span {
+	float: right;
+}
+
+.feedbackPage .mui-table-view-chevron .mui-table-view-cell {
+	padding-right: 45px;
+}
+
+.feedbackPage .mui-table-view-cell input {
+	width: 60%;
+	float: right;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	height: auto;
+	border: none;
+}
+
+.feedbackPage .mui-table-view-cell input[readonly] {
+	color: #999;
+}
+
+.feedbackPage .mui-navigate-right:after,
+.feedbackPage .mui-push-right:after {
+	right: 25px
+}
+
+.feedbackPage .mui-table-view-chevron {
+	margin-top: 15px;
+}
+
+.feedbackPage .mui-btn-block {
+	background: rgb(20, 47, 89);
+	color: #fff;
+	border: none;
+}
+
+.feedbackPage .button-margin p {
+	font-size: 12px;
+	color: #333;
+}
+
+.feedbackPage .button-margin p a {
+	color: rgb(20, 47, 89);
+}
+
+.feedbackPage textarea {
+	border: none;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.feedbackPage .textarea {
+	position: relative;
+	padding-bottom: 15px;
+	background: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.feedbackPage strong {
+	font-weight: normal;
+}
+
+.feedbackPage .textarea p {
+	position: absolute;
+	right: 15px;
+	bottom: 5px;
+}
+
+.feedbackPage .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+
+.feedbackPage .mui-table-view:before {
+	height: 0;
+}
+
+.feedbackPage .mui-table-view:after {
+	height: 0;
+}
+
+.feedbackPage .time-choose strong {
+	display: inline-block;
+	width: 44%;
+	font-weight: normal;
+	font-size: 16px;
+	border: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	line-height: 30px;
+	margin: 0 5px;
+}
+
+.feedbackPage .time-choose {
+	text-align: center;
+	padding-bottom: 12px;
+	background: #fff;
+}
+
+.feedbackPage .button-margin p {
+	text-align: center;
+}
+
+.feedbackPage .button-margin p a {
+	background: url(../img/feedback_icon.png) no-repeat left center;
+	background-size: 14px;
+	padding-left: 18px;
+	display: inline-block;
+	line-height: 20px;
+}
+.chargeIndex .feedbackPage .button-margin p a{
+	background: url(../img/charge_index_icon.png) no-repeat left center;
+	background-size: 14px;
+}
+
+/*新增燃气账户*/
+
+.gas-new {
+	font-size: 16px;
+}
+
+.gas-new em {
+	font-style: normal;
+	display: inline-block;
+	width: 25%;
+	font-size: 16px;
+	color: #999
+}
+
+.gas-new span {
+	float: right;
+}
+
+
+.gas-new .mui-table-view-chevron {
+	margin-top: 15px;
+}
+
+.gas-new .mui-btn-block {
+	background: rgb(20, 47, 89);
+	color: #fff;
+	border: none;
+}
+
+.gas-new .button-margin p {
+	font-size: 12px;
+	color: #333;
+}
+
+.gas-new .button-margin p a {
+	color: rgb(20, 47, 89);
+}
+
+.gas-new .mui-content>.mui-table-view:first-child{
+	margin-top: 10px;
+}
+.gas-new .mui-table-view.mui-table-view-chevron{
+	margin-top: 12px;
+}
+/*燃气客服*/
+
+.gas-service {
+	height: 100%;
+	width: 100%;
+	background: url(../img/charge_index_bg.png) bottom center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	background-color:#fff;
+}
+
+.gas-service .mui-table-view-cell.picker {
+	background: url(../img/install_title.png) no-repeat 14px 18px;
+	background-size: 20px;
+	padding-left: 27px;
+	font-size: 15px;
+	line-height: 28px;
+	color: #002d64;
+}
+
+.gas-service .mui-table-view-cell.picker .mui-icon {
+	font-size: 20px;
+	vertical-align: -1px;
+}
+
+.gas-service .mui-table-view-cell:after {
+	transform: scaleY(0.3);
+	-webkit-transform: scaleY(0.3);
+}
+
+.gas-service .mui-table-view:before {
+	transform: scaleY(0.3);
+	-webkit-transform: scaleY(0.3);
+}
+
+.gas-service .mui-table-view:after {
+	transform: scaleY(0.3);
+	-webkit-transform: scaleY(0.3);
+}
+
+.gas-service .mui-table-view-cell {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.gas-service .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+	background: #f7f7f7;
+}
+
+.gas-service .mui-table-view-cell p {
+	font-size: 12px;
+}
+
+.gas-service .mui-table-view-cell>a:not(.mui-btn) {
+	font-size: 16px;
+}
+
+.gas-service .mui-table-view+.mui-table-view {
+	/*background: none;*/
+	margin-top: 15px;
+}
+
+.gas-service .mui-table-view+.mui-table-view {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.gas-service .mui-table-view+.mui-table-view span {
+	float: right;
+	width: auto;
+}
+
+.gas-service .mui-table-view {
+	background: none;
+}
+
+.gas-service .mui-content {
+	background: rgba(247, 247, 247, 0.5);
+}
+
+
+/*我的燃气*/
+
+.my-account .title {
+	background: #fff;
+	height: 54px;
+	line-height: 54px;
+	padding: 0 15px;
+}
+
+.my-account .title a {
+	float: right;
+	font-size: 14px;
+	color: #002d64;
+}
+
+.my-account h3 {
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+}
+.my-account h3 em{
+	display: inline-block;
+    max-width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.my-account h3 span {
+	font-size: 16px;
+	padding-left: 20px;
+	width: auto;
+	display: inline;
+	text-align: left;
+}
+
+.my-account .mui-table-view-cell p {
+	color: #999;
+	font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.my-account .mui-btn-block {
+	background: rgb(20, 47, 89);
+	color: #fff;
+}
+
+.my-account .mui-btn {
+	border: none;
+}
+.my-account .mui-table-view-cell .mui-btn{
+	color: red;
+	padding-right: 0;
+} 
+.my-account .mui-table-view-cell .mui-btn em{
+	color: #bbb;
+	padding-right: 5px;
+	font-size: 16px;
+}
+.my-account .mui-table-view-cell {
+	padding-left: 42px;
+}
+
+.my-account .mui-table-view-cell.home {
+	background: url(../img/my_gas_icon1.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.my-account .mui-table-view-cell.friend {
+	background: url(../img/my_gas_icon2.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.my-account .mui-table-view-cell.children {
+	background: url(../img/my_gas_icon3.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.my-account .mui-table-view-cell.parent {
+	background: url(../img/my_gas_icon5.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.my-account .mui-table-view-cell.other {
+	background: url(../img/my_gas_icon6.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+.my-account .mui-table-view-cell.landlord {
+	background: url(../img/my_gas_icon4.png) no-repeat 15px center;
+	background-size: 40px;
+}
+
+
+/*进度查询*/
+
+.progress_search em {
+	font-style: normal;
+	color: #999;
+	font-size: 14px;
+	vertical-align:bottom;
+}
+
+.progress_search span {
+	font-size: 14px;
+	color: #999;
+	width: auto;
+	display: inline;
+	text-align: left;
+}
+
+.progress_search .mui-table-view.detail {
+	padding: 8px 0;
+}
+
+.progress_search .mui-table-view.detail .mui-table-view-cell.status span,
+.progress_search .mui-table-view.detail .mui-table-view-cell.status em {
+	color: #333;
+}
+
+.progress_search .mui-table-view.detail .mui-table-view-cell:after {
+	height: 0
+}
+
+.progress_search .mui-table-view.detail .mui-table-view-cell {
+	padding: 3px 15px;
+}
+
+.progress_search .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.progress_search .mui-table-view:after {
+	height: 0;
+}
+
+.progress_search .servicePerson {
+	margin-top: 15px;
+	background: #fff;
+	padding: 20px 42px;
+	background: #fff url(../img/tel_icon.png) no-repeat 12px 20px;
+	background-size: 22px;
+}
+
+.progress_search .servicePerson span {
+	color: #333;
+	padding-left: 5px;
+}
+
+.progress_search .mui-table-view.progress .mui-table-view-cell {
+	padding-left: 50px;
+}
+
+
+
+.progress_search .mui-table-view.progress .mui-table-view-cell:after {
+	left: 50px;
+}
+
+/*.progress_search .mui-table-view.progress:after {
+	position: absolute;
+	top: 20px;
+	bottom: 0;
+	left: 25px;
+	width: 1px;
+	height: auto;
+	right: auto;
+	background: #ddd;
+	content: '';
+	transform: scaleY(1);
+	-webkit-transform: scaleY(1);
+	transform: scaleX(.5);
+	-webkit-transform: scaleX(.5);
+}*/
+
+.progress_search .mui-table-view.progress .mui-table-view-cell:first-child h5,
+.progress_search .mui-table-view.progress .mui-table-view-cell:first-child p {
+	color: #002d64;
+}
+
+.progress_search .mui-table-view.progress h5 {
+	position: relative;
+}
+.progress_search .mui-table-view:before{
+	height: 0;
+}
+/*.progress_search .mui-table-view.progress .mui-table-view-cell:first-child h5::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -34px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #002d64;
+	z-index: 5;
+	border: 3px solid #b2c0d0;
+}
+
+.progress_search .mui-table-view.progress .mui-table-view-cell h5::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -30px;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background: #999;
+	z-index: 5;
+}*/
+
+
+/*管表安装*/
+
+.tube-install {
+	font-size: 16px;
+}
+
+.tube-install em {
+	font-style: normal;
+	display: inline-block;
+	width: 25%;
+	font-size: 16px;
+	color: #333
+}
+
+.tube-install span {
+	float: right;
+}
+.tube-install .loading span{
+	float: none;
+}
+.tube-install .input-error{
+	float: right;
+}
+.tube-install .mui-table-view-chevron .mui-table-view-cell {
+	padding-right: 45px;
+}
+
+.tube-install .mui-table-view-cell input {
+	width: 65%;
+	float: right;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	height: auto;
+	border: none;
+}
+
+.tube-install .mui-navigate-right:after,
+.tube-install .mui-push-right:after {
+	right: 25px
+}
+.tube-install .textarea{
+	position: relative;
+}
+.tube-install .textarea .input-error{
+	position: absolute;
+	right: 15px;
+	bottom:25px;
+	z-index: 10;
+}
+.tube-install .mui-table-view-chevron {
+	margin-top: 15px;
+}
+
+.tube-install .mui-btn-block {
+	background: rgb(20, 47, 89);
+	color: #fff;
+	border: none;
+}
+
+.tube-install .button-margin p {
+	font-size: 12px;
+	color: #333;
+}
+
+.tube-install .button-margin p a {
+	color: rgb(20, 47, 89);
+}
+
+.tube-install textarea {
+	border: none;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.tube-install .mui-content>.mui-table-view:first-child {
+	margin-top: 0;
+}
+
+.tube-install .mui-table-view:before {
+	height: 0;
+}
+
+.tube-install .mui-table-view:after {
+	height: 0;
+}
+
+
+.tube-install .button-margin .mui-btn-block {
+	margin-bottom: 0;
+}
+
+.tube-install .time-choose strong {
+	display: inline-block;
+	width: 44%;
+	font-weight: normal;
+	font-size: 16px;
+	border: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	line-height: 30px;
+	margin: 0 5px;
+}
+
+.tube-install .time-choose {
+	text-align: center;
+	padding-bottom: 12px;
+	background: #fff;
+}
+
+.tube-install .time-choose strong.active {
+	color: rgb(20, 47, 89);
+	border: 1px solid rgb(20, 47, 89);
+}
+
+/*营业网点*/
+.store-list h3{
+				font-weight: normal;
+				font-size: 16px;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+			.store-list p{
+				font-size: 12px;
+			}
+			.store-list strong{
+				font-weight: normal;
+				font-size: 11px;
+				color:#007AFF;
+				position: absolute;
+				right: 28px;
+				bottom: 10px;
+			}
+			.store-list .mui-table-view-cell>a:not(.mui-btn){
+				white-space:normal;
+				margin-right: -80px;
+			}
+			.store-list .mui-navigate-right:after, .mui-push-right:after{
+				right: 26px;
+			}
+			.store-list strong i{
+				font-size: 13px;
+			}
+
+.vcc-top-button {
+	position: absolute!important;
+    float: right;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    margin: 10px 10px 0 0;
+}
+
+.vcc-top-button a {
+	font-size: 16px;
+    line-height: 28px;
+    color: #002d64;
+}

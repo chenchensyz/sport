@@ -1,0 +1,40 @@
+body{
+  background: url(../img/bg.png);
+}
+#signPage .mui-btn-block{
+    padding:6px;
+    font-size: 16px;
+}
+#signPage  h5{
+    color: #666;
+}
+#signPage  .title{
+    text-align: center;
+    padding-top: 22%;
+    margin-bottom: 6%;
+}
+#signPage  .mui-checkbox input[type=checkbox]:checked:before,#signPage .mui-radio input[type=radio]:checked:before{
+    color: rgb(46,133,203);
+  }
+#signPage  .mui-input-group{
+    margin-left: -15px;
+  }
+#signPage  input[type=text]:focus,#signPage  input[type=tel]:focus,#signPage textarea:focus{
+    border:1px solid rgb(46,133,203);
+  }
+#signPage .mui-checkbox.mui-left input[type=checkbox][disabled]+label{
+    color: #aaa;
+}
+#signPage  .mui-btn-blue,#signPage .mui-btn-primary,#signPage input[type=submit]{
+    background-color:rgb(46,133,203);
+    border:1px solid rgb(46,133,203);
+    margin-top: 20px;
+    padding:8px;
+  }
+#signPage  .mui-card{
+    margin-top: 10%;
+  }
+#signPage  .weui_btn_primary:not(.weui_btn_disabled):active{
+    background-color:#0062cc;
+}
+

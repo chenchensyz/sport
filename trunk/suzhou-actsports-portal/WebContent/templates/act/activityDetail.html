@@ -1,0 +1,71 @@
+#set($title = "$!{name}")
+#set($css=["app","style"])
+#set($js=["common"])
+<style type="text/css">
+    .faqArticle{
+        padding:10px;
+        background-color: #fff;
+    }
+    .faqArticle h4{
+        text-align: center;
+        font-weight: normal;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px;
+        color: #333;
+    }
+    .faqArticle .mui-content{
+        padding-top: 5px;
+        background-color: #fff;
+    }
+    .faqArticle .article{
+        padding-top: 8px;
+    }
+    .faqArticle time{
+        display: block;
+        text-align: center;
+        color: #999;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .faqArticle .mui-content img{
+        width: 100%
+    }
+</style>
+<!-- <body>
+<img width="12px" style="position: absolute;top:-1000px;" src="$!{cdn_server}/img/ico_loading.gif">
+<div class="wrp_page">
+    <div class="page-bizinfo">
+        <div class="header">
+            <h1 id="activity-name" style="white-space:normal">
+                        
+                    </h1>
+            <p class="activity-info">
+                <span id="post-date" class="activity-meta no-extra">
+                
+                </span>
+            </p>
+        </div>
+    </div>
+    <div id="page-content" class="page-content" lang="en">
+        <div id="img-content">
+            <div class="text" id="js_content">
+                $!{newsItem.content}
+            </div>
+            <p class="page-toolbar" id="js_toobar">
+            </p>
+        </div>
+    </div>
+</div>
+</body> -->
+<body class="faqArticle">
+    <div class="mui-content">
+        <h4>
+            $!{newsItem.title}
+        </h4>
+        <time>$!{newsItem.createDate}</time>
+        <div class="article">
+             $!{newsItem.content}
+        </div>
+    </div>
+</body>

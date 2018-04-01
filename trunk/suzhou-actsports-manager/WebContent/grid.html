@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>苏州体育</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="css/app.css"/>
+		<style type="text/css">
+			.indexPage,.mui-content,.mui-grid-view.mui-grid-9{
+				background: #fff;
+				border:none
+			}
+			.mui-grid-view.mui-grid-9.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+				border:none;
+			}
+			.mui-grid-view.mui-grid-9{
+				margin-top: 15px;
+			}
+			.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+				padding:2px 15px;
+			}
+			.indexPage .nav ul{
+				font-size: 0;
+				background: rgb(47,100,168);
+				color: #fff;
+				line-height: 38px;
+				padding:0
+			}
+			.indexPage .nav li{
+				list-style: none;
+				display: inline-block;	
+				font-size: 16px;
+				text-align: center;		
+				width: 20%;
+				vertical-align: top;
+			}
+			.indexPage .nav li.active{
+				background: rgb(7,58,115);
+			}
+			.indexPage .mui-grid-9 img{
+				width: 70px;
+				height: 70px;
+				border-radius: 50%;
+			}
+		</style>
+	</head>
+	<body class="indexPage">
+		<div class="mui-content">
+			<div class="nav">
+				<ul>
+					<li class="active" id="conlum1">微生活</li>
+					<li id="conlum2">微矩阵</li>
+				</ul>
+			</div>
+			<div class="navContent">
+				<!--<ul class="mui-table-view mui-grid-view mui-grid-9" toHref = 'conlum1'>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="media/img/muwu.jpg"/>
+		                    <div class="mui-media-body">买房租房</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="media/img/check_icon.png"/>
+		                    <div class="mui-media-body">买房租房</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="media/img/check_icon.png"/>
+		                    <div class="mui-media-body">买房租房</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="media/img/check_icon.png"/>
+		                    <div class="mui-media-body">买房租房</div></a></li>
+		        </ul> -->
+			</div>
+			
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			var DATA = [];
+
+			(function($,doc){
+				$.ready(function(){
+					var container = doc.querySelector('.mui-content');
+					var navHtml = '',
+						listHtml = '';
+					mui.ajax('micromatrixController.do?micromatrixMessage', {
+						data: {
+							menuCode: window.location.href.split('?menuCode=')[1]
+						},
+						dataType: 'json', //服务器返回json格式数据
+						type: 'post', //HTTP请求类型
+						timeout: 10000000, //超时时间设置为10秒；
+						contentType: "application/x-www-form-urlencoded; charset=utf-8",
+						async:false,
+						success: function(data) {
+							console.log(data)
+							DATA = data.mirList;
+							
+						},
+						error: function(xhr, type, errorThrown) {
+							if(type=='abort'||type=='timeout'){mui.alert('网络无连接，请刷新重试')}else{mui.alert('访问失败，请联系客服')} 
+						}
+					});
+					$.each(DATA, function(index,items) {
+						var Ul = doc.createElement('ul');
+						var liHtml='';
+						Ul.className = 'mui-table-view mui-grid-view mui-grid-9';
+						if(index==0){
+							navHtml+='<li id='+items.id+' class="active" style="width:'+(100/DATA.length)+'%">'+items.name+'</li>';
+							Ul.style.display='block';
+						}else{
+							navHtml+='<li id='+items.id+' style="width:'+(100/DATA.length)+'%">'+items.name+'</li>';
+							Ul.style.display='none';
+						}
+						
+						Ul.setAttribute('toHref',items.id);
+						$.each(items.list,function(a,b){
+							if(index == 0){
+								liHtml+='<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" >'
+							}else{
+								liHtml+='<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">'
+							}
+							liHtml+='<a href='+b.url+'><img ' +'src='+b.img+' />'
+							+'<div class="mui-media-body">'+b.title+'</div></li>'
+						})
+						Ul.innerHTML = liHtml;
+						doc.querySelector('.navContent').appendChild(Ul);
+					});
+					doc.querySelector('.nav ul').innerHTML = navHtml;
+					
+					mui(".nav ul").on("tap","li",function(){
+						//alert(this.id)
+						var idName = this.id;
+						var gridList = doc.querySelectorAll('.mui-table-view');
+						var navLi = doc.querySelectorAll('.nav li');
+						$.each(gridList,function(index,items){
+							if(items.getAttribute('toHref') == idName){
+								gridList[index].style.display='block';
+							}else{
+								gridList[index].style.display='none';
+							}
+						});
+						$.each(navLi, function(index,items) {
+							items.className = '';
+						});
+						this.className = this.className+' active';
+					})
+					
+				})
+				
+			})(mui,document);
+		</script>
+	</body>
+
+</html>

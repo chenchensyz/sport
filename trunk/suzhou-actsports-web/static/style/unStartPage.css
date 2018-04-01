@@ -1,0 +1,28 @@
+#unStartPage{
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+#unStartPage .title{
+	text-align: center;
+	padding-top: 20%;
+	margin-bottom: 20%;
+}
+#unStartPage .title p{
+    color:#fff;
+    padding-bottom: 0;
+    font-size: 22px;
+    margin-top: 9%;
+}
+#unStartPage .mainContent{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left:0;
+	width: 100%;
+	text-align: center;
+    margin-top: -40px;
+}
+#unStartPage .mainContent img{
+	width: 60%;
+}

@@ -1,0 +1,9 @@
+<script type="text/javascript" charset="utf-8" src="$!{cdn_server}/libs/mui/js/mui.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+
+
+#foreach ($s in $js)
+<script type="text/javascript" charset="utf-8" src="$!{cdn_server}/js/${s}.js?v3.3"></script>
+#end

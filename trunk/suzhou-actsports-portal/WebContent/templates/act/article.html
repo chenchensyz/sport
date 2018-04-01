@@ -1,0 +1,78 @@
+#set($title = "$!{pageTemplate.name}")
+#set($css=["app","style"])
+#set($js=["common","article"])
+<script type="text/javascript">
+	var pageTemplate = '$!{pageTemplate.pageModuleList}';
+</script>
+<style type="text/css">
+			.nav ul{
+				font-size: 0;
+				background: rgb(247,247,247);
+				color: #333;
+				line-height: 45px;
+				padding:0
+			}
+			.nav li{
+				list-style: none;
+				display: inline-block;	
+				font-size: 16px;
+				text-align: center;		
+				width: 50%;
+				vertical-align: top;
+			}
+			.nav li.active{
+				color: #4CD964;
+			}
+			figure{
+				margin: 0;
+				padding: 0;
+			}
+			figure img{
+				width: 100%;
+				display: block;
+				height: 180px;
+			}
+			.mui-table-view:before{
+				height: 0;
+			}
+			.mui-table-view:after{
+				left: 15px;
+			}
+			.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+				margin-right:-110px;
+				white-space:inherit;
+			}
+			body,.mui-content{
+				background: #fff;
+			}
+			.content{
+				padding:15px;
+			}
+			.content .navContent+.navContent{
+				display: none;
+			}
+			.content .navContent p img{
+				width: 100%;
+			}
+			.content .navContent p{
+				color: #333;
+			}
+		</style>
+<body class="activity">
+	<div class="mui-content">
+			<figure>
+				<img src=""/>
+			</figure>
+			<div class="nav">
+				<ul> 
+					<li class="active" id="conlum1"></li>
+					<li id="conlum2"></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="navContent"></div>
+				<div class="navContent"></div>
+			</div>
+		</div>
+
+</body>

@@ -1,0 +1,3995 @@
+{ root: 'F:\\actsports-web(2)',
+  registry: 'https://registry.npm.taobao.org',
+  pkgs: [],
+  production: false,
+  cacheDir: 'C:\\Users\\lijingjing\\.npminstall_tarball',
+  env: 
+   { npm_config_registry: 'https://registry.npm.taobao.org',
+     npm_config_argv: '{"remain":[],"cooked":["--china","--userconfig=C:\\\\Users\\\\lijingjing\\\\.cnpmrc","--disturl=https://npm.taobao.org/mirrors/node","--registry=https://registry.npm.taobao.org"],"original":["--china","--userconfig=C:\\\\Users\\\\lijingjing\\\\.cnpmrc","--disturl=https://npm.taobao.org/mirrors/node","--registry=https://registry.npm.taobao.org"]}',
+     NODE: 'C:\\Program Files\\nodejs\\node.exe',
+     npm_node_execpath: 'C:\\Program Files\\nodejs\\node.exe',
+     npm_execpath: 'C:\\Users\\lijingjing\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npminstall\\bin\\install.js',
+     npm_rootpath: 'F:\\actsports-web(2)',
+     npm_config_userconfig: 'C:\\Users\\lijingjing\\.cnpmrc',
+     npm_config_disturl: 'https://npm.taobao.org/mirrors/node',
+     npm_config_r: 'https://registry.npm.taobao.org',
+     NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+     NVM_NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+     NVM_IOJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/iojs',
+     PHANTOMJS_CDNURL: 'https://npm.taobao.org/mirrors/phantomjs',
+     CHROMEDRIVER_CDNURL: 'https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/chromedriver',
+     OPERADRIVER_CDNURL: 'https://npm.taobao.org/mirrors/operadriver',
+     ELECTRON_MIRROR: 'https://npm.taobao.org/mirrors/electron/',
+     SASS_BINARY_SITE: 'https://npm.taobao.org/mirrors/node-sass',
+     FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v',
+     npm_config_cache: 'C:\\Users\\lijingjing\\.npminstall_tarball' },
+  binaryMirrors: 
+   { ENVS: 
+      { NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+        NVM_NODEJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/node',
+        NVM_IOJS_ORG_MIRROR: 'https://npm.taobao.org/mirrors/iojs',
+        PHANTOMJS_CDNURL: 'https://npm.taobao.org/mirrors/phantomjs',
+        CHROMEDRIVER_CDNURL: 'https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/chromedriver',
+        OPERADRIVER_CDNURL: 'https://npm.taobao.org/mirrors/operadriver',
+        ELECTRON_MIRROR: 'https://npm.taobao.org/mirrors/electron/',
+        SASS_BINARY_SITE: 'https://npm.taobao.org/mirrors/node-sass',
+        FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v' },
+     leveldown: { host: 'https://npm.taobao.org/mirrors/leveldown/v{version}' },
+     'leveldown-hyper': { host: 'https://npm.taobao.org/mirrors/leveldown-hyper/v{version}' },
+     mknod: { host: 'https://npm.taobao.org/mirrors/mknod/v{version}' },
+     couchbase: { host: 'https://npm.taobao.org/mirrors/couchbase/v{version}' },
+     'sodium-prebuilt': { host: 'https://npm.taobao.org/mirrors/sodium-prebuilt/v{version}' },
+     'utp-native': { host: 'https://npm.taobao.org/mirrors/utp-native/v{version}' },
+     'node-tk5': { host: 'https://npm.taobao.org/mirrors/node-tk5/v{version}' },
+     'fuse-bindings': { host: 'https://npm.taobao.org/mirrors/fuse-bindings/v{version}' },
+     'zmq-prebuilt': { host: 'https://npm.taobao.org/mirrors/zmq-prebuilt/v{version}' },
+     gl: { host: 'https://npm.taobao.org/mirrors/gl/v{version}' },
+     hackrf: { host: 'https://npm.taobao.org/mirrors/hackrf/v{version}' },
+     rabin: { host: 'https://npm.taobao.org/mirrors/rabin/v{version}' },
+     'v8-debug': { host: 'https://npm.taobao.org/mirrors/node-inspector' },
+     'v8-profiler': { host: 'https://npm.taobao.org/mirrors/node-inspector' },
+     sqlite3: { host: 'https://npm.taobao.org/mirrors' },
+     grpc: 
+      { host: 'https://npm.taobao.org/mirrors',
+        remote_path: '{name}/v{version}' },
+     fsevents: { host: 'https://npm.taobao.org/mirrors/fsevents' },
+     nodegit: { host: 'https://npm.taobao.org/mirrors/nodegit/v{version}' },
+     'flow-bin': 
+      { replaceHost: 'https://github.com/facebook/flow/releases/download/v',
+        host: 'https://npm.taobao.org/mirrors/flow/v' },
+     'jpegtran-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'cwebp-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'zopflipng-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'optipng-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     mozjpeg: { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     gifsicle: { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'pngquant-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'pngcrush-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'jpeg-recompress-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'advpng-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'pngout-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' },
+     'jpegoptim-bin': { replaceHost: [Object], host: 'https://raw.github.cnpmjs.org' } },
+  forbiddenLicenses: null,
+  strictSSL: true,
+  ignoreScripts: false,
+  detail: false,
+  events: 
+   EventEmitter {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: 0,
+     await: [Function: await] },
+  postInstallTasks: [],
+  peerDependencies: 
+   [ { package: [Object],
+       displayName: 'react-native-easy-toast@1.0.5',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'react-dom@0.14.8',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'babel-loader@6.2.10',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'react-router@2.8.1',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'less-loader@2.2.3',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'react-native-toast-easy@1.0.4',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'react-weui@1.0.3',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'url-loader@0.5.7',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'webpack-dev-server@1.16.2\u001b[90m › \u001b[39mwebpack-dev-middleware@1.9.0',
+       parentDir: 'F:\\actsports-web(2)\\node_modules\\.1.16.2@webpack-dev-server' },
+     { package: [Object],
+       displayName: 'react-redux@4.4.6',
+       parentDir: 'F:\\actsports-web(2)' },
+     { package: [Object],
+       displayName: 'webpack-dev-server@1.16.2',
+       parentDir: 'F:\\actsports-web(2)' } ],
+  latestVersions: 
+   Map {
+     'style-loader' => '0.13.1',
+     'react-native-easy-toast' => '1.0.5',
+     'babel-loader' => '6.2.10',
+     'react-dom' => '0.14.8',
+     'css-loader' => '0.26.1',
+     'loader-utils' => '0.2.16',
+     'object-assign' => '4.1.0',
+     'find-cache-dir' => '0.1.1',
+     'babel-preset-es2015' => '6.18.0',
+     'babel-preset-react' => '6.16.0',
+     'postcss-modules-extract-imports' => '1.0.1',
+     'postcss-modules-scope' => '1.0.2',
+     'babel-code-frame' => '6.20.0',
+     'lodash.camelcase' => '4.3.0',
+     'big.js' => '3.1.3',
+     'pkg-dir' => '1.0.0',
+     'emojis-list' => '2.1.0',
+     'babel-plugin-check-es2015-constants' => '6.8.0',
+     'babel-plugin-transform-es2015-block-scoped-functions' => '6.8.0',
+     'babel-plugin-transform-es2015-destructuring' => '6.19.0',
+     'babel-plugin-transform-es2015-computed-properties' => '6.8.0',
+     'css-selector-tokenizer' => '0.7.0',
+     'babel-plugin-transform-es2015-duplicate-keys' => '6.8.0',
+     'babel-plugin-transform-es2015-for-of' => '6.18.0',
+     'babel-plugin-transform-es2015-modules-amd' => '6.18.0',
+     'json5' => '0.5.1',
+     'postcss-modules-values' => '1.2.2',
+     'babel-plugin-transform-es2015-literals' => '6.8.0',
+     'babel-plugin-transform-es2015-arrow-functions' => '6.8.0',
+     'babel-plugin-transform-es2015-modules-systemjs' => '6.19.0',
+     'babel-plugin-transform-es2015-modules-commonjs' => '6.18.0',
+     'babel-plugin-transform-es2015-modules-umd' => '6.18.0',
+     'babel-core' => '6.21.0',
+     'babel-plugin-transform-es2015-block-scoping' => '6.21.0',
+     'commondir' => '1.0.1',
+     'babel-plugin-transform-es2015-function-name' => '6.9.0',
+     'babel-plugin-transform-es2015-template-literals' => '6.8.0',
+     'babel-plugin-syntax-flow' => '6.18.0',
+     'babel-plugin-transform-es2015-unicode-regex' => '6.11.0',
+     'babel-plugin-transform-es2015-sticky-regex' => '6.8.0',
+     'babel-plugin-transform-es2015-typeof-symbol' => '6.18.0',
+     'babel-plugin-transform-es2015-shorthand-properties' => '6.18.0',
+     'babel-plugin-transform-regenerator' => '6.21.0',
+     'babel-plugin-syntax-jsx' => '6.18.0',
+     'babel-plugin-transform-es2015-spread' => '6.8.0',
+     'babel-plugin-transform-react-display-name' => '6.8.0',
+     'babel-plugin-transform-es2015-object-super' => '6.8.0',
+     'babel-plugin-transform-flow-strip-types' => '6.21.0',
+     'babel-plugin-transform-react-jsx-self' => '6.11.0',
+     'babel-plugin-transform-react-jsx' => '6.8.0',
+     'babel-plugin-transform-react-jsx-source' => '6.9.0',
+     'babel-plugin-transform-es2015-classes' => '6.18.0',
+     'chalk' => '1.1.3',
+     'babel-plugin-transform-es2015-parameters' => '6.21.0',
+     'js-tokens' => '2.0.0',
+     'find-up' => '1.1.2',
+     'babel-helper-define-map' => '6.18.0',
+     'babel-template' => '6.16.0',
+     'babel-helper-hoist-variables' => '6.18.0',
+     'babel-plugin-transform-strict-mode' => '6.18.0',
+     'babel-messages' => '6.8.0',
+     'slash' => '1.0.0',
+     'regexpu-core' => '2.0.0',
+     'cssesc' => '0.1.0',
+     'fastparse' => '1.1.1',
+     'babel-helpers' => '6.16.0',
+     'path-is-absolute' => '1.0.1',
+     'minimatch' => '3.0.3',
+     'mkdirp' => '0.5.1',
+     'babel-helper-function-name' => '6.18.0',
+     'babel-helper-regex' => '6.18.0',
+     'postcss-modules-local-by-default' => '1.1.1',
+     'icss-replace-symbols' => '1.0.2',
+     'babel-register' => '6.18.0',
+     'cssnano' => '3.9.1',
+     'babel-helper-replace-supers' => '6.18.0',
+     'babel-helper-optimise-call-expression' => '6.18.0',
+     'babel-helper-builder-react-jsx' => '6.21.1',
+     'private' => '0.1.6',
+     'esutils' => '2.0.2',
+     'escape-string-regexp' => '1.0.5',
+     'ansi-styles' => '2.2.1',
+     'babel-helper-call-delegate' => '6.18.0',
+     'supports-color' => '3.1.2',
+     'has-ansi' => '2.0.0',
+     'babel-helper-get-function-arity' => '6.18.0',
+     'strip-ansi' => '3.0.1',
+     'pinkie-promise' => '2.0.1',
+     'path-exists' => '2.1.0',
+     'babylon' => '6.14.1',
+     'brace-expansion' => '1.1.6',
+     'regjsgen' => '0.2.0',
+     'regenerate' => '1.3.2',
+     'home-or-tmp' => '2.0.0',
+     'decamelize' => '1.2.0',
+     'regjsparser' => '0.1.5',
+     'convert-source-map' => '1.3.0',
+     'postcss-colormin' => '2.2.1',
+     'postcss-calc' => '5.3.1',
+     'postcss-discard-empty' => '2.1.0',
+     'postcss-discard-unused' => '2.2.3',
+     'postcss-normalize-charset' => '1.1.1',
+     'postcss-discard-duplicates' => '2.0.2',
+     'postcss-merge-idents' => '2.1.7',
+     'postcss-minify-params' => '1.2.1',
+     'postcss-minify-gradients' => '1.0.5',
+     'postcss-reduce-transforms' => '1.0.4',
+     'postcss-unique-selectors' => '2.0.2',
+     'ansi-regex' => '2.0.0',
+     'postcss-normalize-url' => '3.0.7',
+     'pinkie' => '2.0.4',
+     'postcss-convert-values' => '2.5.0',
+     'postcss-zindex' => '2.2.0',
+     'postcss-merge-rules' => '2.0.11',
+     'postcss-reduce-initial' => '1.0.1',
+     'postcss-filter-plugins' => '2.0.2',
+     'postcss-reduce-idents' => '2.3.1',
+     'postcss-svgo' => '2.1.6',
+     'has' => '1.0.1',
+     'postcss-discard-comments' => '2.0.4',
+     'defined' => '1.0.0',
+     'debug' => '2.5.1',
+     'postcss-minify-selectors' => '2.0.7',
+     'babel-types' => '6.21.0',
+     'postcss-value-parser' => '3.3.0',
+     'balanced-match' => '0.4.2',
+     'postcss-minify-font-values' => '1.0.5',
+     'source-map-support' => '0.4.7',
+     'os-tmpdir' => '1.0.2',
+     'os-homedir' => '1.0.2',
+     'babel-generator' => '6.21.0',
+     'concat-map' => '0.0.1',
+     'regenerator-transform' => '0.9.8',
+     'postcss-discard-overridden' => '0.1.1',
+     'minimist' => '1.2.0',
+     'history' => '4.5.0',
+     'postcss-message-helpers' => '2.0.0',
+     'reduce-css-calc' => '1.3.0',
+     'uniqs' => '2.0.0',
+     'alphanum-sort' => '1.0.2',
+     'jsesc' => '1.3.0',
+     'is-absolute-url' => '2.1.0',
+     'postcss-ordered-values' => '2.2.2',
+     'normalize-url' => '1.8.0',
+     'vendors' => '1.0.1',
+     'is-svg' => '2.1.0',
+     'ms' => '0.7.2',
+     'to-fast-properties' => '1.0.2',
+     'detect-indent' => '4.0.0',
+     'colormin' => '1.1.2',
+     'babel-traverse' => '6.21.0',
+     'source-map' => '0.5.6',
+     'prepend-http' => '1.0.4',
+     'query-string' => '4.2.3',
+     'html-comment-regex' => '1.1.1',
+     'reduce-function-call' => '1.0.2',
+     'function-bind' => '1.1.0',
+     'invariant' => '2.2.2',
+     'warning' => '3.0.0',
+     'source-list-map' => '0.1.7',
+     'loose-envify' => '1.3.0',
+     'uniqid' => '4.1.0',
+     'postcss-merge-longhand' => '2.0.1',
+     'repeating' => '2.0.1',
+     'css-color-names' => '0.0.4',
+     'value-equal' => '0.2.0',
+     'resolve-pathname' => '2.0.2',
+     'color' => '0.11.4',
+     'sort-keys' => '1.1.2',
+     'globals' => '9.14.0',
+     'strict-uri-encode' => '1.1.0',
+     'math-expression-evaluator' => '1.2.14',
+     'is-finite' => '1.0.2',
+     'is-plain-obj' => '1.1.0',
+     'color-string' => '0.3.0',
+     'lodash.indexof' => '4.0.5',
+     'color-convert' => '1.8.2',
+     'clone' => '1.0.2',
+     'macaddress' => '0.2.8',
+     'postcss-selector-parser' => '2.2.2',
+     'number-is-nan' => '1.0.1',
+     'color-name' => '1.1.1',
+     'http-server' => '0.8.5',
+     'flatten' => '1.0.2',
+     'indexes-of' => '1.0.1',
+     'uniq' => '1.0.1',
+     'opener' => '1.4.2',
+     'postcss' => '5.2.7',
+     'corser' => '2.0.1',
+     'portfinder' => '0.4.0',
+     'autoprefixer' => '6.6.0',
+     'svgo' => '0.7.1',
+     'http-proxy' => '1.16.2',
+     'has-flag' => '1.0.0',
+     'ecstatic' => '0.7.6',
+     'colors' => '1.1.2',
+     'react-router' => '2.8.1',
+     'js-base64' => '2.1.9',
+     'async' => '1.5.2',
+     'normalize-range' => '0.1.2',
+     'optimist' => '0.6.1',
+     'eventemitter3' => '1.2.0',
+     'browserslist' => '1.5.1',
+     'num2fraction' => '1.2.2',
+     'sax' => '1.2.1',
+     'url-join' => '0.0.1',
+     'he' => '0.5.0',
+     'mime' => '1.3.4',
+     'whet.extend' => '0.9.9',
+     'union' => '0.4.6',
+     'wordwrap' => '0.0.3',
+     'hoist-non-react-statics' => '1.2.0',
+     'coa' => '1.0.1',
+     'requires-port' => '1.0.0',
+     'qs' => '6.2.0',
+     'js-yaml' => '3.7.0',
+     'q' => '1.4.1',
+     'csso' => '2.2.1',
+     'esprima' => '3.1.3',
+     'clap' => '1.1.2',
+     'argparse' => '1.0.9',
+     'react' => '0.14.8',
+     'deep-equal' => '1.0.1',
+     'weui' => '1.1.0',
+     'sprintf-js' => '1.0.3',
+     'less-loader' => '2.2.3',
+     'envify' => '3.4.1',
+     'postcss-loader' => '1.2.1',
+     'react-native-toast-easy' => '1.0.4',
+     'through' => '2.3.8',
+     'postcss-load-config' => '1.0.0',
+     'react-weui' => '1.0.3',
+     'node-uuid' => '1.4.7',
+     'postcss-load-plugins' => '2.1.0',
+     'postcss-load-options' => '1.0.2',
+     'cosmiconfig' => '2.1.1',
+     'classnames' => '2.2.5',
+     'require-from-string' => '1.2.1',
+     'babel-runtime' => '6.20.0',
+     'parse-json' => '2.2.0',
+     'mobile-detect' => '1.3.5',
+     'react-redux' => '4.4.6',
+     'react-touch-loader' => '1.0.2',
+     'regenerator-runtime' => '0.10.1',
+     'error-ex' => '1.3.0',
+     'uglify-loader' => '1.4.0',
+     'jstransform' => '11.0.3',
+     'redux' => '3.6.0',
+     'is-arrayish' => '0.2.1',
+     'uglify-js' => '2.7.5',
+     'base62' => '1.1.2',
+     'uglify-to-browserify' => '1.0.2',
+     'symbol-observable' => '1.0.4',
+     'url-loader' => '0.5.7',
+     'yargs' => '3.10.0',
+     'commoner' => '0.10.8',
+     'esprima-fb' => '15001.1.0-dev-harmony-fb',
+     'amdefine' => '1.0.1',
+     'window-size' => '0.1.0',
+     'camelcase' => '1.2.1',
+     'fbjs' => '0.6.1',
+     'cliui' => '2.1.0',
+     'graceful-fs' => '4.1.11',
+     'commander' => '2.9.0',
+     'glob' => '5.0.15',
+     'right-align' => '0.1.3',
+     'center-align' => '0.1.3',
+     'whatwg-fetch' => '2.0.1',
+     'inflight' => '1.0.6',
+     'once' => '1.4.0',
+     'graceful-readlink' => '1.0.1',
+     'inherits' => '2.0.3',
+     'align-text' => '0.1.4',
+     'lazy-cache' => '1.0.4',
+     'recast' => '0.11.18',
+     'ua-parser-js' => '0.7.12',
+     'wrappy' => '1.0.2',
+     'repeat-string' => '1.6.1',
+     'iconv-lite' => '0.4.15',
+     'longest' => '1.0.1',
+     'kind-of' => '3.1.0',
+     'detective' => '4.3.2',
+     'is-buffer' => '1.1.4',
+     'promise' => '7.1.1',
+     'ast-types' => '0.9.2',
+     'asap' => '2.0.5',
+     'acorn' => '3.3.0',
+     'validator' => '6.2.0',
+     'webpack-dev-server' => '1.16.2',
+     'compression' => '1.6.2',
+     'open' => '0.0.5',
+     'connect-history-api-fallback' => '1.3.0',
+     'webpack-dev-middleware' => '1.9.0',
+     'on-headers' => '1.0.1',
+     'compressible' => '2.0.9',
+     'accepts' => '1.3.3',
+     'vary' => '1.1.0',
+     'bytes' => '2.3.0',
+     'http-proxy-middleware' => '0.17.3',
+     'memory-fs' => '0.4.1',
+     'stream-cache' => '0.0.2',
+     'range-parser' => '1.2.0',
+     'express' => '4.14.0',
+     'mime-types' => '2.1.13',
+     'is-glob' => '3.1.0',
+     'array-flatten' => '1.1.1',
+     'content-disposition' => '0.5.1',
+     'content-type' => '1.0.2',
+     'mime-db' => '1.25.0',
+     'escape-html' => '1.0.3',
+     'negotiator' => '0.6.1',
+     'cookie-signature' => '1.0.6',
+     'cookie' => '0.3.1',
+     'encodeurl' => '1.0.1',
+     'fresh' => '0.3.0',
+     'methods' => '1.1.2',
+     'finalhandler' => '0.5.0',
+     'merge-descriptors' => '1.0.1',
+     'parseurl' => '1.3.1',
+     'proxy-addr' => '1.1.2',
+     'serve-static' => '1.11.1',
+     'type-is' => '1.6.14',
+     'utils-merge' => '1.0.0',
+     'etag' => '1.7.0',
+     'send' => '0.14.1',
+     'path-to-regexp' => '0.1.7',
+     'errno' => '0.1.4',
+     'is-extglob' => '2.1.1',
+     'micromatch' => '2.3.11',
+     'on-finished' => '2.3.0',
+     'depd' => '1.1.0',
+     'unpipe' => '1.0.0',
+     'forwarded' => '0.1.0',
+     'media-typer' => '0.3.0',
+     'statuses' => '1.3.1',
+     'http-errors' => '1.5.1',
+     'filename-regex' => '2.0.0',
+     'array-unique' => '0.2.1',
+     'arr-diff' => '2.0.0',
+     'normalize-path' => '2.0.1',
+     'extglob' => '0.3.2',
+     'expand-brackets' => '0.1.5',
+     'ee-first' => '1.1.1',
+     'braces' => '1.8.5',
+     'regex-cache' => '0.4.3',
+     'destroy' => '1.0.4',
+     'object.omit' => '2.0.1',
+     'parse-glob' => '3.0.4',
+     'readable-stream' => '2.2.2',
+     'prr' => '0.0.0',
+     'ipaddr.js' => '1.1.1',
+     'setprototypeof' => '1.0.2',
+     'arr-flatten' => '1.0.1',
+     'is-posix-bracket' => '0.1.1',
+     'repeat-element' => '1.1.2',
+     'expand-range' => '1.8.2',
+     'is-equal-shallow' => '0.1.3',
+     'is-primitive' => '2.0.0',
+     'is-extendable' => '0.1.1',
+     'is-dotfile' => '1.0.2',
+     'for-own' => '0.1.4',
+     'buffer-shims' => '1.0.0',
+     'glob-base' => '0.3.0',
+     'string_decoder' => '0.10.31',
+     'sockjs' => '0.3.18',
+     'process-nextick-args' => '1.0.7',
+     'core-util-is' => '1.0.2',
+     'util-deprecate' => '1.0.2',
+     'isarray' => '1.0.0',
+     'preserve' => '0.2.0',
+     'fill-range' => '2.2.3',
+     'for-in' => '0.1.6',
+     'glob-parent' => '2.0.0',
+     'isobject' => '2.1.0',
+     'is-number' => '2.1.0',
+     'randomatic' => '1.1.6',
+     'sockjs-client' => '1.1.1',
+     'faye-websocket' => '0.11.0',
+     'url-parse' => '1.1.7',
+     'json3' => '3.3.2',
+     'eventsource' => '0.1.6',
+     'querystringify' => '0.0.4',
+     'serve-index' => '1.8.0',
+     'uuid' => '2.0.3',
+     'websocket-driver' => '0.6.5',
+     'batch' => '0.5.3',
+     'original' => '1.0.0',
+     'webpack' => '1.14.0',
+     'interpret' => '0.6.6',
+     'tapable' => '0.1.10',
+     'websocket-extensions' => '0.1.1',
+     'node-libs-browser' => '0.7.0',
+     'watchpack' => '0.2.9',
+     'webpack-core' => '0.6.9',
+     'https-browserify' => '0.0.1',
+     'enhanced-resolve' => '0.9.1',
+     'tty-browserify' => '0.0.0',
+     'constants-browserify' => '1.0.0',
+     'punycode' => '1.4.1',
+     'os-browserify' => '0.2.1',
+     'path-browserify' => '0.0.0',
+     'timers-browserify' => '2.0.2',
+     'process' => '0.11.9',
+     'stream-browserify' => '2.0.1',
+     'assert' => '1.4.1',
+     'domain-browser' => '1.1.7',
+     'console-browserify' => '1.1.0',
+     'vm-browserify' => '0.0.4',
+     'chokidar' => '1.6.1',
+     'querystring-es3' => '0.2.1',
+     'url' => '0.11.0',
+     'setimmediate' => '1.0.5',
+     'util' => '0.10.3',
+     'is-binary-path' => '1.0.1',
+     'indexof' => '0.0.1',
+     'anymatch' => '1.3.0',
+     'async-each' => '1.0.1',
+     'browserify-zlib' => '0.1.4',
+     'date-now' => '0.1.4',
+     'events' => '1.1.1',
+     'querystring' => '0.2.0',
+     'stream-http' => '2.5.0',
+     'crypto-browserify' => '3.3.0',
+     'readdirp' => '2.1.0',
+     'arrify' => '1.0.1',
+     'builtin-status-codes' => '2.0.0',
+     'set-immediate-shim' => '1.0.1',
+     'binary-extensions' => '1.8.0',
+     'to-arraybuffer' => '1.0.1',
+     'buffer' => '4.9.1',
+     'xtend' => '4.0.1',
+     'ripemd160' => '0.2.0',
+     'pbkdf2-compat' => '2.0.1',
+     'ieee754' => '1.1.8',
+     'base64-js' => '1.2.0',
+     'pako' => '0.2.9',
+     'browserify-aes' => '0.4.0',
+     'caniuse-db' => '1.0.30000602',
+     'sha.js' => '2.2.6',
+     'lodash-es' => '4.17.2',
+     'less' => '2.7.1',
+     'image-size' => '0.5.0',
+     'lodash' => '4.17.2',
+     'core-js' => '2.4.1',
+     'fsevents' => '1.0.15' },
+  latestPackages: Map {},
+  cache: 
+   { 'download:babel-loader@6.2.10': { done: true },
+     'download:react@0.14.8': { done: true },
+     'download:css-loader@0.26.1': { done: true },
+     'download:react-native-easy-toast@1.0.5': { done: true },
+     'download:react-weui@1.0.3': { done: true },
+     'download:weui@1.1.0': { done: true },
+     'download:react-dom@0.14.8': { done: true },
+     'download:babel-core@6.21.0': { done: true },
+     'download:style-loader@0.13.1': { done: true },
+     'download:react-router@2.8.1': { done: true },
+     'install:style-loader@^0.13.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.13.1@style-loader' },
+     'install:style-loader:range:0.14.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.13.1@style-loader' },
+     'install:react-native-easy-toast@^1.0.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@react-native-easy-toast' },
+     'install:react-native-easy-toast:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@react-native-easy-toast' },
+     'install:babel-loader@^6.2.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.2.10@babel-loader' },
+     'install:babel-loader:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.2.10@babel-loader' },
+     'install:react-dom@^0.14.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.14.8@react-dom' },
+     'install:react-dom:range:0.15.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.14.8@react-dom' },
+     'download:loader-utils@0.2.16': { done: true },
+     'download:object-assign@4.1.0': { done: true },
+     'download:mkdirp@0.5.1': { done: true },
+     'download:find-cache-dir@0.1.1': { done: true },
+     'download:babel-preset-es2015@6.18.0': { done: true },
+     'download:babel-preset-react@6.16.0': { done: true },
+     'install:css-loader@^0.26.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.26.1@css-loader' },
+     'install:css-loader:range:0.27.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.26.1@css-loader' },
+     'download:lodash.camelcase@4.3.0': { done: true },
+     'download:css-selector-tokenizer@0.7.0': { done: true },
+     'download:postcss-modules-extract-imports@1.0.1': { done: true },
+     'download:babel-code-frame@6.20.0': { done: true },
+     'download:cssnano@3.9.1': { done: true },
+     'install:loader-utils@^0.2.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.16@loader-utils' },
+     'install:loader-utils:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.16@loader-utils' },
+     'install:loader-utils@^0.2.11': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.16@loader-utils' },
+     'install:loader-utils@~0.2.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.16@loader-utils' },
+     'download:postcss-modules-scope@1.0.2': { done: true },
+     'download:postcss-modules-local-by-default@1.1.1': { done: true },
+     'download:postcss-modules-values@1.2.2': { done: true },
+     'install:object-assign@^4.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.1.0@object-assign' },
+     'install:object-assign:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.1.0@object-assign' },
+     'download:big.js@3.1.3': { done: true },
+     'download:json5@0.5.1': { done: true },
+     'download:emojis-list@2.1.0': { done: true },
+     'download:source-list-map@0.1.7': { done: true },
+     'install:find-cache-dir@^0.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@find-cache-dir' },
+     'install:find-cache-dir:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@find-cache-dir' },
+     'install:babel-preset-es2015@^6.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-preset-es2015' },
+     'install:babel-preset-es2015:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-preset-es2015' },
+     'download:commondir@1.0.1': { done: true },
+     'download:pkg-dir@1.0.0': { done: true },
+     'download:babel-plugin-transform-es2015-block-scoping@6.21.0': { done: true },
+     'download:babel-plugin-check-es2015-constants@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-classes@6.18.0': { done: true },
+     'download:babel-plugin-transform-es2015-block-scoped-functions@6.8.0': { done: true },
+     'install:babel-preset-react@^6.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-preset-react' },
+     'install:babel-preset-react:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-preset-react' },
+     'download:babel-plugin-transform-es2015-computed-properties@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-destructuring@6.19.0': { done: true },
+     'download:babel-plugin-transform-es2015-duplicate-keys@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-for-of@6.18.0': { done: true },
+     'download:babel-plugin-transform-es2015-literals@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-modules-amd@6.18.0': { done: true },
+     'download:babel-plugin-transform-es2015-modules-commonjs@6.18.0': { done: true },
+     'download:babel-plugin-transform-es2015-arrow-functions@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-modules-systemjs@6.19.0': { done: true },
+     'download:babel-plugin-transform-es2015-function-name@6.9.0': { done: true },
+     'download:babel-plugin-transform-es2015-modules-umd@6.18.0': { done: true },
+     'download:babel-plugin-transform-es2015-parameters@6.21.0': { done: true },
+     'download:babel-plugin-transform-es2015-shorthand-properties@6.18.0': { done: true },
+     'download:babel-plugin-transform-es2015-sticky-regex@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-spread@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-typeof-symbol@6.18.0': { done: true },
+     'download:babel-plugin-transform-es2015-template-literals@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-unicode-regex@6.11.0': { done: true },
+     'download:babel-plugin-transform-regenerator@6.21.0': { done: true },
+     'download:babel-plugin-syntax-flow@6.18.0': { done: true },
+     'download:babel-plugin-syntax-jsx@6.18.0': { done: true },
+     'download:babel-plugin-transform-flow-strip-types@6.21.0': { done: true },
+     'install:postcss-modules-extract-imports@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@postcss-modules-extract-imports' },
+     'install:postcss-modules-extract-imports:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@postcss-modules-extract-imports' },
+     'download:postcss@5.2.7': { done: true },
+     'download:babel-plugin-transform-react-display-name@6.8.0': { done: true },
+     'download:babel-plugin-transform-es2015-object-super@6.8.0': { done: true },
+     'download:babel-plugin-transform-react-jsx@6.8.0': { done: true },
+     'download:babel-plugin-transform-react-jsx-self@6.11.0': { done: true },
+     'download:babel-plugin-transform-react-jsx-source@6.9.0': { done: true },
+     'install:postcss-modules-scope@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@postcss-modules-scope' },
+     'install:postcss-modules-scope:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@postcss-modules-scope' },
+     'install:babel-code-frame@^6.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-code-frame' },
+     'install:babel-code-frame:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-code-frame' },
+     'download:css-selector-tokenizer@0.6.0': { done: true },
+     'download:chalk@1.1.3': { done: true },
+     'install:lodash.camelcase@^4.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.3.0@lodash.camelcase' },
+     'install:lodash.camelcase:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.3.0@lodash.camelcase' },
+     'download:js-tokens@2.0.0': { done: true },
+     'install:big.js@^3.1.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.3@big.js' },
+     'install:big.js:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.3@big.js' },
+     'install:pkg-dir@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@pkg-dir' },
+     'install:pkg-dir:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@pkg-dir' },
+     'install:emojis-list@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@emojis-list' },
+     'install:emojis-list:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@emojis-list' },
+     'install:babel-plugin-check-es2015-constants@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-check-es2015-constants' },
+     'install:babel-plugin-check-es2015-constants:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-check-es2015-constants' },
+     'install:babel-plugin-transform-es2015-block-scoped-functions@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-block-scoped-functions' },
+     'install:babel-plugin-transform-es2015-block-scoped-functions:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-block-scoped-functions' },
+     'install:babel-plugin-transform-es2015-destructuring@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.19.0@babel-plugin-transform-es2015-destructuring' },
+     'install:babel-plugin-transform-es2015-destructuring:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.19.0@babel-plugin-transform-es2015-destructuring' },
+     'download:find-up@1.1.2': { done: true },
+     'install:babel-plugin-transform-es2015-computed-properties@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-computed-properties' },
+     'install:babel-plugin-transform-es2015-computed-properties:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-computed-properties' },
+     'install:css-selector-tokenizer@^0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.0@css-selector-tokenizer' },
+     'install:css-selector-tokenizer:range:0.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.0@css-selector-tokenizer' },
+     'install:babel-plugin-transform-es2015-duplicate-keys@^6.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-duplicate-keys' },
+     'install:babel-plugin-transform-es2015-duplicate-keys:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-duplicate-keys' },
+     'install:babel-plugin-transform-es2015-for-of@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-for-of' },
+     'install:babel-plugin-transform-es2015-for-of:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-for-of' },
+     'install:babel-plugin-transform-es2015-modules-amd@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-modules-amd' },
+     'install:babel-plugin-transform-es2015-modules-amd:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-modules-amd' },
+     'install:json5@^0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.1@json5' },
+     'install:json5:range:0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.1@json5' },
+     'install:postcss-modules-values@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.2@postcss-modules-values' },
+     'install:postcss-modules-values:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.2@postcss-modules-values' },
+     'install:babel-plugin-transform-es2015-literals@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-literals' },
+     'install:babel-plugin-transform-es2015-literals:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-literals' },
+     'install:babel-plugin-transform-es2015-arrow-functions@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-arrow-functions' },
+     'install:babel-plugin-transform-es2015-arrow-functions:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-arrow-functions' },
+     'install:babel-plugin-transform-es2015-modules-systemjs@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.19.0@babel-plugin-transform-es2015-modules-systemjs' },
+     'install:babel-plugin-transform-es2015-modules-systemjs:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.19.0@babel-plugin-transform-es2015-modules-systemjs' },
+     'download:regexpu-core@1.0.0': { done: true },
+     'download:cssesc@0.1.0': { done: true },
+     'install:babel-plugin-transform-es2015-modules-commonjs@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-modules-commonjs' },
+     'install:babel-plugin-transform-es2015-modules-commonjs:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-modules-commonjs' },
+     'download:babel-template@6.16.0': { done: true },
+     'install:babel-plugin-transform-es2015-modules-umd@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-modules-umd' },
+     'install:babel-plugin-transform-es2015-modules-umd:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-modules-umd' },
+     'install:babel-core@^6.5.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-core' },
+     'install:babel-core:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-core' },
+     'install:babel-plugin-transform-es2015-block-scoping@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-es2015-block-scoping' },
+     'install:babel-plugin-transform-es2015-block-scoping:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-es2015-block-scoping' },
+     'download:babel-helper-define-map@6.18.0': { done: true },
+     'download:babel-runtime@6.20.0': { done: true },
+     'install:commondir@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@commondir' },
+     'install:commondir:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@commondir' },
+     'download:fastparse@1.1.1': { done: true },
+     'install:babel-plugin-transform-es2015-function-name@^6.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.9.0@babel-plugin-transform-es2015-function-name' },
+     'install:babel-plugin-transform-es2015-function-name:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.9.0@babel-plugin-transform-es2015-function-name' },
+     'download:babel-types@6.21.0': { done: true },
+     'install:babel-plugin-transform-es2015-template-literals@^6.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-template-literals' },
+     'install:babel-plugin-transform-es2015-template-literals:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-template-literals' },
+     'install:babel-plugin-syntax-flow@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-syntax-flow' },
+     'install:babel-plugin-syntax-flow:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-syntax-flow' },
+     'install:babel-plugin-transform-es2015-unicode-regex@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.11.0@babel-plugin-transform-es2015-unicode-regex' },
+     'install:babel-plugin-transform-es2015-unicode-regex:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.11.0@babel-plugin-transform-es2015-unicode-regex' },
+     'download:icss-replace-symbols@1.0.2': { done: true },
+     'install:babel-plugin-transform-es2015-sticky-regex@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-sticky-regex' },
+     'install:babel-plugin-transform-es2015-sticky-regex:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-sticky-regex' },
+     'install:babel-plugin-transform-es2015-typeof-symbol@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-typeof-symbol' },
+     'install:babel-plugin-transform-es2015-typeof-symbol:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-typeof-symbol' },
+     'install:babel-plugin-transform-es2015-shorthand-properties@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-shorthand-properties' },
+     'install:babel-plugin-transform-es2015-shorthand-properties:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-shorthand-properties' },
+     'install:babel-plugin-transform-regenerator@^6.16.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-regenerator' },
+     'install:babel-plugin-transform-regenerator:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-regenerator' },
+     'install:babel-plugin-syntax-jsx@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-syntax-jsx' },
+     'install:babel-plugin-syntax-jsx:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-syntax-jsx' },
+     'download:babel-helper-hoist-variables@6.18.0': { done: true },
+     'install:babel-plugin-transform-es2015-spread@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-spread' },
+     'install:babel-plugin-transform-es2015-spread:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-spread' },
+     'install:babel-plugin-transform-react-display-name@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-react-display-name' },
+     'install:babel-plugin-transform-react-display-name:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-react-display-name' },
+     'install:babel-plugin-transform-es2015-object-super@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-object-super' },
+     'install:babel-plugin-transform-es2015-object-super:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-es2015-object-super' },
+     'install:babel-plugin-transform-flow-strip-types@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-flow-strip-types' },
+     'install:babel-plugin-transform-flow-strip-types:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-flow-strip-types' },
+     'install:babel-plugin-transform-react-jsx-self@^6.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.11.0@babel-plugin-transform-react-jsx-self' },
+     'install:babel-plugin-transform-react-jsx-self:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.11.0@babel-plugin-transform-react-jsx-self' },
+     'install:babel-plugin-transform-react-jsx@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-react-jsx' },
+     'install:babel-plugin-transform-react-jsx:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-plugin-transform-react-jsx' },
+     'install:babel-plugin-transform-react-jsx-source@^6.3.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.9.0@babel-plugin-transform-react-jsx-source' },
+     'install:babel-plugin-transform-react-jsx-source:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.9.0@babel-plugin-transform-react-jsx-source' },
+     'download:babel-plugin-transform-strict-mode@6.18.0': { done: true },
+     'download:babel-generator@6.21.0': { done: true },
+     'download:babel-helpers@6.16.0': { done: true },
+     'download:babel-messages@6.8.0': { done: true },
+     'download:babel-register@6.18.0': { done: true },
+     'download:babel-traverse@6.21.0': { done: true },
+     'download:esutils@2.0.2': { done: true },
+     'download:convert-source-map@1.3.0': { done: true },
+     'install:babel-plugin-transform-es2015-classes@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-classes' },
+     'install:babel-plugin-transform-es2015-classes:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-es2015-classes' },
+     'download:lodash@4.17.2': { done: true },
+     'download:minimatch@3.0.3': { done: true },
+     'download:slash@1.0.0': { done: true },
+     'download:path-is-absolute@1.0.1': { done: true },
+     'download:babylon@6.14.1': { done: true },
+     'download:debug@2.5.1': { done: true },
+     'install:chalk@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.3@chalk' },
+     'install:chalk:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.3@chalk' },
+     'download:private@0.1.6': { done: true },
+     'install:babel-plugin-transform-es2015-parameters@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-es2015-parameters' },
+     'install:babel-plugin-transform-es2015-parameters:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-plugin-transform-es2015-parameters' },
+     'download:source-map@0.5.6': { done: true },
+     'download:babel-helper-function-name@6.18.0': { done: true },
+     'download:babel-helper-regex@6.18.0': { done: true },
+     'download:regexpu-core@2.0.0': { done: true },
+     'install:js-tokens@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@js-tokens' },
+     'install:js-tokens:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@js-tokens' },
+     'download:regenerator-transform@0.9.8': { done: true },
+     'download:babel-helper-optimise-call-expression@6.18.0': { done: true },
+     'download:babel-helper-replace-supers@6.18.0': { done: true },
+     'download:babel-helper-builder-react-jsx@6.21.1': { done: true },
+     'install:css-selector-tokenizer@^0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.0@css-selector-tokenizer' },
+     'install:css-selector-tokenizer:range:0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.0@css-selector-tokenizer' },
+     'install:find-up@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@find-up' },
+     'install:find-up:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@find-up' },
+     'download:ansi-styles@2.2.1': { done: true },
+     'download:escape-string-regexp@1.0.5': { done: true },
+     'install:babel-helper-define-map@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-define-map' },
+     'install:babel-helper-define-map:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-define-map' },
+     'install:babel-helper-define-map@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-define-map' },
+     'install:babel-template@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-template' },
+     'install:babel-template:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-template' },
+     'install:babel-template@^6.14.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-template' },
+     'install:babel-template@^6.16.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-template' },
+     'install:babel-template@^6.15.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-template' },
+     'download:supports-color@2.0.0': { done: true },
+     'download:has-ansi@2.0.0': { done: true },
+     'download:strip-ansi@3.0.1': { done: true },
+     'download:babel-helper-call-delegate@6.18.0': { done: true },
+     'download:babel-helper-get-function-arity@6.18.0': { done: true },
+     'download:path-exists@2.1.0': { done: true },
+     'download:pinkie-promise@2.0.1': { done: true },
+     'download:history@4.5.0': { done: true },
+     'install:babel-helper-hoist-variables@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-hoist-variables' },
+     'install:babel-helper-hoist-variables:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-hoist-variables' },
+     'install:babel-plugin-transform-strict-mode@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-strict-mode' },
+     'install:babel-plugin-transform-strict-mode:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-plugin-transform-strict-mode' },
+     'install:babel-messages@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-messages' },
+     'install:babel-messages:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.8.0@babel-messages' },
+     'install:slash@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@slash' },
+     'install:slash:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@slash' },
+     'install:regexpu-core@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@regexpu-core' },
+     'install:regexpu-core:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@regexpu-core' },
+     'install:cssesc@^0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.0@cssesc' },
+     'install:cssesc:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.0@cssesc' },
+     'install:fastparse@^1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@fastparse' },
+     'install:fastparse:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@fastparse' },
+     'install:babel-helpers@^6.16.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-helpers' },
+     'install:babel-helpers:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.16.0@babel-helpers' },
+     'install:path-is-absolute@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@path-is-absolute' },
+     'install:path-is-absolute:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@path-is-absolute' },
+     'install:minimatch@^3.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.3@minimatch' },
+     'install:minimatch:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.3@minimatch' },
+     'download:regjsgen@0.2.0': { done: true },
+     'download:regjsparser@0.1.5': { done: true },
+     'install:mkdirp@^0.5.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.1@mkdirp' },
+     'install:mkdirp:range:0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.1@mkdirp' },
+     'install:babel-helper-function-name@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-function-name' },
+     'install:babel-helper-function-name:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-function-name' },
+     'install:babel-helper-function-name@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-function-name' },
+     'install:babel-helper-regex@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-regex' },
+     'install:babel-helper-regex:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-regex' },
+     'download:regenerate@1.3.2': { done: true },
+     'download:brace-expansion@1.1.6': { done: true },
+     'install:postcss-modules-local-by-default@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@postcss-modules-local-by-default' },
+     'install:postcss-modules-local-by-default:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@postcss-modules-local-by-default' },
+     'install:icss-replace-symbols@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@icss-replace-symbols' },
+     'install:icss-replace-symbols:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@icss-replace-symbols' },
+     'download:minimist@0.0.8': { done: true },
+     'install:babel-register@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-register' },
+     'install:babel-register:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-register' },
+     'download:home-or-tmp@2.0.0': { done: true },
+     'install:cssnano@>=2.6.1 <4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.9.1@cssnano' },
+     'install:cssnano:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.9.1@cssnano' },
+     'download:source-map-support@0.4.7': { done: true },
+     'install:babel-helper-replace-supers@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-replace-supers' },
+     'install:babel-helper-replace-supers:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-replace-supers' },
+     'install:babel-helper-replace-supers@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-replace-supers' },
+     'download:defined@1.0.0': { done: true },
+     'download:has@1.0.1': { done: true },
+     'download:decamelize@1.2.0': { done: true },
+     'install:babel-helper-optimise-call-expression@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-optimise-call-expression' },
+     'install:babel-helper-optimise-call-expression:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-optimise-call-expression' },
+     'download:postcss-colormin@2.2.1': { done: true },
+     'download:postcss-convert-values@2.5.0': { done: true },
+     'install:babel-helper-builder-react-jsx@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.1@babel-helper-builder-react-jsx' },
+     'install:babel-helper-builder-react-jsx:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.1@babel-helper-builder-react-jsx' },
+     'install:private@^0.1.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.6@private' },
+     'install:private:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.6@private' },
+     'download:postcss-calc@5.3.1': { done: true },
+     'download:core-js@2.4.1': { done: true },
+     'download:postcss-discard-overridden@0.1.1': { done: true },
+     'download:postcss-discard-empty@2.1.0': { done: true },
+     'download:postcss-discard-comments@2.0.4': { done: true },
+     'download:postcss-discard-duplicates@2.0.2': { done: true },
+     'download:autoprefixer@6.6.0': { done: true },
+     'download:postcss-discard-unused@2.2.3': { done: true },
+     'download:postcss-merge-idents@2.1.7': { done: true },
+     'install:esutils@^2.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@esutils' },
+     'install:esutils:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@esutils' },
+     'download:postcss-merge-longhand@2.0.1': { done: true },
+     'download:postcss-merge-rules@2.0.11': { done: true },
+     'download:postcss-minify-font-values@1.0.5': { done: true },
+     'download:postcss-normalize-charset@1.1.1': { done: true },
+     'download:postcss-normalize-url@3.0.7': { done: true },
+     'download:postcss-minify-params@1.2.1': { done: true },
+     'download:postcss-minify-gradients@1.0.5': { done: true },
+     'download:postcss-minify-selectors@2.0.7': { done: true },
+     'download:postcss-ordered-values@2.2.2': { done: true },
+     'download:postcss-reduce-initial@1.0.1': { done: true },
+     'download:postcss-reduce-transforms@1.0.4': { done: true },
+     'download:postcss-unique-selectors@2.0.2': { done: true },
+     'download:postcss-zindex@2.2.0': { done: true },
+     'download:postcss-reduce-idents@2.3.1': { done: true },
+     'download:postcss-svgo@2.1.6': { done: true },
+     'install:escape-string-regexp@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@escape-string-regexp' },
+     'install:escape-string-regexp:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@escape-string-regexp' },
+     'install:ansi-styles@^2.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.1@ansi-styles' },
+     'install:ansi-styles:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.1@ansi-styles' },
+     'download:postcss-value-parser@3.3.0': { done: true },
+     'install:regexpu-core@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@regexpu-core' },
+     'install:regexpu-core:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@regexpu-core' },
+     'install:babel-helper-call-delegate@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-call-delegate' },
+     'install:babel-helper-call-delegate:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-call-delegate' },
+     'install:supports-color@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@supports-color' },
+     'install:supports-color:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@supports-color' },
+     'install:has-ansi@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@has-ansi' },
+     'install:has-ansi:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@has-ansi' },
+     'install:babel-helper-get-function-arity@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-get-function-arity' },
+     'install:babel-helper-get-function-arity:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.18.0@babel-helper-get-function-arity' },
+     'install:strip-ansi@^3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.1@strip-ansi' },
+     'install:strip-ansi:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.1@strip-ansi' },
+     'install:esutils@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@esutils' },
+     'install:pinkie-promise@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@pinkie-promise' },
+     'install:pinkie-promise:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@pinkie-promise' },
+     'install:path-exists@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@path-exists' },
+     'install:path-exists:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@path-exists' },
+     'download:ansi-regex@2.0.0': { done: true },
+     'download:postcss-filter-plugins@2.0.2': { done: true },
+     'download:pinkie@2.0.4': { done: true },
+     'install:babylon@^6.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.14.1@babylon' },
+     'install:babylon:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.14.1@babylon' },
+     'install:brace-expansion@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.6@brace-expansion' },
+     'install:brace-expansion:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.6@brace-expansion' },
+     'install:regjsgen@^0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@regjsgen' },
+     'install:regjsgen:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@regjsgen' },
+     'download:balanced-match@0.4.2': { done: true },
+     'download:concat-map@0.0.1': { done: true },
+     'install:regenerate@^1.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.2@regenerate' },
+     'install:regenerate:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.2@regenerate' },
+     'install:home-or-tmp@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@home-or-tmp' },
+     'install:home-or-tmp:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@home-or-tmp' },
+     'install:decamelize@^1.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@decamelize' },
+     'install:decamelize:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@decamelize' },
+     'download:os-tmpdir@1.0.2': { done: true },
+     'download:os-homedir@1.0.2': { done: true },
+     'install:regjsparser@^0.1.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.5@regjsparser' },
+     'install:regjsparser:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.5@regjsparser' },
+     'install:convert-source-map@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@convert-source-map' },
+     'install:convert-source-map:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@convert-source-map' },
+     'install:postcss-colormin@^2.1.8': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.1@postcss-colormin' },
+     'install:postcss-colormin:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.1@postcss-colormin' },
+     'install:postcss-calc@^5.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.3.1@postcss-calc' },
+     'install:postcss-calc:range:6.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.3.1@postcss-calc' },
+     'install:postcss-discard-empty@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@postcss-discard-empty' },
+     'install:postcss-discard-empty:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@postcss-discard-empty' },
+     'download:jsesc@0.5.0': { done: true },
+     'install:postcss-discard-unused@^2.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.3@postcss-discard-unused' },
+     'install:postcss-discard-unused:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.3@postcss-discard-unused' },
+     'install:postcss-normalize-charset@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@postcss-normalize-charset' },
+     'install:postcss-normalize-charset:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@postcss-normalize-charset' },
+     'install:postcss-discard-duplicates@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@postcss-discard-duplicates' },
+     'install:postcss-discard-duplicates:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@postcss-discard-duplicates' },
+     'install:postcss-merge-idents@^2.1.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.7@postcss-merge-idents' },
+     'install:postcss-merge-idents:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.7@postcss-merge-idents' },
+     'download:colormin@1.1.2': { done: true },
+     'install:postcss-minify-params@^1.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@postcss-minify-params' },
+     'install:postcss-minify-params:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@postcss-minify-params' },
+     'install:postcss-minify-gradients@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@postcss-minify-gradients' },
+     'install:postcss-minify-gradients:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@postcss-minify-gradients' },
+     'install:postcss-reduce-transforms@^1.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@postcss-reduce-transforms' },
+     'install:postcss-reduce-transforms:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@postcss-reduce-transforms' },
+     'install:postcss-unique-selectors@^2.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@postcss-unique-selectors' },
+     'install:postcss-unique-selectors:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@postcss-unique-selectors' },
+     'install:ansi-regex@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@ansi-regex' },
+     'install:ansi-regex:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@ansi-regex' },
+     'download:reduce-css-calc@1.3.0': { done: true },
+     'download:postcss-message-helpers@2.0.0': { done: true },
+     'install:postcss-normalize-url@^3.0.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.7@postcss-normalize-url' },
+     'install:postcss-normalize-url:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.7@postcss-normalize-url' },
+     'install:pinkie@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.4@pinkie' },
+     'install:pinkie:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.4@pinkie' },
+     'install:postcss-convert-values@^2.3.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.5.0@postcss-convert-values' },
+     'install:postcss-convert-values:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.5.0@postcss-convert-values' },
+     'download:uniqs@2.0.0': { done: true },
+     'download:alphanum-sort@1.0.2': { done: true },
+     'install:postcss-zindex@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.0@postcss-zindex' },
+     'install:postcss-zindex:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.0@postcss-zindex' },
+     'install:postcss-merge-rules@^2.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.11@postcss-merge-rules' },
+     'install:postcss-merge-rules:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.11@postcss-merge-rules' },
+     'install:postcss-reduce-initial@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@postcss-reduce-initial' },
+     'install:postcss-reduce-initial:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@postcss-reduce-initial' },
+     'install:postcss-filter-plugins@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@postcss-filter-plugins' },
+     'install:postcss-filter-plugins:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@postcss-filter-plugins' },
+     'install:postcss-reduce-idents@^2.2.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.1@postcss-reduce-idents' },
+     'install:postcss-reduce-idents:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.1@postcss-reduce-idents' },
+     'install:postcss-svgo@^2.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.6@postcss-svgo' },
+     'install:postcss-svgo:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.6@postcss-svgo' },
+     'install:has@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@has' },
+     'install:has:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@has' },
+     'install:postcss-discard-comments@^2.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.4@postcss-discard-comments' },
+     'install:postcss-discard-comments:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.4@postcss-discard-comments' },
+     'download:is-absolute-url@2.1.0': { done: true },
+     'download:normalize-url@1.8.0': { done: true },
+     'install:defined@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@defined' },
+     'install:defined:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@defined' },
+     'install:debug@^2.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.5.1@debug' },
+     'install:debug:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.5.1@debug' },
+     'install:postcss-minify-selectors@^2.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.7@postcss-minify-selectors' },
+     'install:postcss-minify-selectors:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.7@postcss-minify-selectors' },
+     'install:babel-types@^6.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-types' },
+     'install:babel-types:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-types' },
+     'install:babel-types@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-types' },
+     'install:babel-types@^6.21.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-types' },
+     'install:babel-types@^6.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-types' },
+     'install:babel-types@^6.16.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-types' },
+     'download:vendors@1.0.1': { done: true },
+     'install:postcss-value-parser@^3.2.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@postcss-value-parser' },
+     'install:postcss-value-parser:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@postcss-value-parser' },
+     'install:postcss-value-parser@^3.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@postcss-value-parser' },
+     'install:postcss-value-parser@^3.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@postcss-value-parser' },
+     'install:postcss-value-parser@^3.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@postcss-value-parser' },
+     'install:postcss-value-parser@^3.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@postcss-value-parser' },
+     'install:postcss-value-parser@^3.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@postcss-value-parser' },
+     'download:uniqid@4.1.0': { done: true },
+     'download:is-svg@2.1.0': { done: true },
+     'download:svgo@0.7.1': { done: true },
+     'download:function-bind@1.1.0': { done: true },
+     'download:ms@0.7.2': { done: true },
+     'download:to-fast-properties@1.0.2': { done: true },
+     'install:balanced-match@^0.4.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.2@balanced-match' },
+     'install:balanced-match:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.2@balanced-match' },
+     'install:postcss-minify-font-values@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@postcss-minify-font-values' },
+     'install:postcss-minify-font-values:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@postcss-minify-font-values' },
+     'install:source-map-support@^0.4.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.7@source-map-support' },
+     'install:source-map-support:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.7@source-map-support' },
+     'install:os-tmpdir@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@os-tmpdir' },
+     'install:os-tmpdir:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@os-tmpdir' },
+     'install:os-homedir@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@os-homedir' },
+     'install:os-homedir:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@os-homedir' },
+     'download:postcss-selector-parser@2.2.2': { done: true },
+     'install:babel-generator@^6.21.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-generator' },
+     'install:babel-generator:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-generator' },
+     'install:concat-map@0.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.1@concat-map' },
+     'install:regenerator-transform@0.9.8': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.8@regenerator-transform' },
+     'install:postcss-discard-overridden@^0.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@postcss-discard-overridden' },
+     'install:postcss-discard-overridden:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@postcss-discard-overridden' },
+     'download:detect-indent@4.0.0': { done: true },
+     'download:jsesc@1.3.0': { done: true },
+     'install:minimist@0.0.8': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.8@minimist' },
+     'install:history@^4.4.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.5.0@history' },
+     'install:history:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.5.0@history' },
+     'download:invariant@2.2.2': { done: true },
+     'download:value-equal@0.2.0': { done: true },
+     'download:loose-envify@1.3.0': { done: true },
+     'install:postcss-message-helpers@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@postcss-message-helpers' },
+     'install:postcss-message-helpers:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@postcss-message-helpers' },
+     'install:reduce-css-calc@^1.2.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@reduce-css-calc' },
+     'install:reduce-css-calc:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@reduce-css-calc' },
+     'download:resolve-pathname@2.0.2': { done: true },
+     'download:warning@3.0.0': { done: true },
+     'install:uniqs@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@uniqs' },
+     'install:uniqs:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@uniqs' },
+     'install:alphanum-sort@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@alphanum-sort' },
+     'install:alphanum-sort:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@alphanum-sort' },
+     'install:alphanum-sort@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@alphanum-sort' },
+     'download:math-expression-evaluator@1.2.14': { done: true },
+     'download:reduce-function-call@1.0.2': { done: true },
+     'install:jsesc@~0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.0@jsesc' },
+     'install:jsesc:range:0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.0@jsesc' },
+     'install:is-absolute-url@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@is-absolute-url' },
+     'install:is-absolute-url:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@is-absolute-url' },
+     'install:postcss-ordered-values@^2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@postcss-ordered-values' },
+     'install:postcss-ordered-values:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@postcss-ordered-values' },
+     'install:normalize-url@^1.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.0@normalize-url' },
+     'install:normalize-url:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.0@normalize-url' },
+     'download:prepend-http@1.0.4': { done: true },
+     'download:query-string@4.2.3': { done: true },
+     'install:vendors@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@vendors' },
+     'install:vendors:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@vendors' },
+     'install:is-svg@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@is-svg' },
+     'install:is-svg:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@is-svg' },
+     'install:ms@0.7.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.2@ms' },
+     'install:to-fast-properties@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@to-fast-properties' },
+     'install:to-fast-properties:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@to-fast-properties' },
+     'download:html-comment-regex@1.1.1': { done: true },
+     'install:detect-indent@^4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.0.0@detect-indent' },
+     'install:detect-indent:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.0.0@detect-indent' },
+     'download:http-server@0.8.5': { done: true },
+     'download:repeating@2.0.1': { done: true },
+     'install:colormin@^1.0.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@colormin' },
+     'install:colormin:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@colormin' },
+     'install:babel-traverse@^6.21.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-traverse' },
+     'install:babel-traverse:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-traverse' },
+     'install:babel-traverse@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-traverse' },
+     'install:babel-traverse@^6.16.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.21.0@babel-traverse' },
+     'install:jsesc@^1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@jsesc' },
+     'install:jsesc:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@jsesc' },
+     'download:css-color-names@0.0.4': { done: true },
+     'install:source-map@^0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.6@source-map' },
+     'install:source-map:range:0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.6@source-map' },
+     'install:source-map@^0.5.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.6@source-map' },
+     'download:color@0.11.4': { done: true },
+     'download:globals@9.14.0': { done: true },
+     'download:sort-keys@1.1.2': { done: true },
+     'install:prepend-http@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@prepend-http' },
+     'install:prepend-http:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@prepend-http' },
+     'install:query-string@^4.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.2.3@query-string' },
+     'install:query-string:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.2.3@query-string' },
+     'install:html-comment-regex@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@html-comment-regex' },
+     'install:html-comment-regex:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@html-comment-regex' },
+     'install:reduce-function-call@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@reduce-function-call' },
+     'install:reduce-function-call:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@reduce-function-call' },
+     'install:function-bind@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@function-bind' },
+     'install:function-bind:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@function-bind' },
+     'download:strict-uri-encode@1.1.0': { done: true },
+     'install:invariant@^2.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@invariant' },
+     'install:invariant:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@invariant' },
+     'install:invariant@^2.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@invariant' },
+     'install:warning@^3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.0@warning' },
+     'install:warning:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.0@warning' },
+     'install:source-list-map@^0.1.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.7@source-list-map' },
+     'install:source-list-map:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.7@source-list-map' },
+     'install:loose-envify@^1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@loose-envify' },
+     'install:loose-envify:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@loose-envify' },
+     'install:loose-envify@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@loose-envify' },
+     'install:uniqid@^4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.1.0@uniqid' },
+     'install:uniqid:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.1.0@uniqid' },
+     'install:postcss-merge-longhand@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@postcss-merge-longhand' },
+     'install:postcss-merge-longhand:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@postcss-merge-longhand' },
+     'install:repeating@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@repeating' },
+     'install:repeating:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@repeating' },
+     'install:css-color-names@0.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.4@css-color-names' },
+     'install:value-equal@^0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@value-equal' },
+     'install:value-equal:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@value-equal' },
+     'install:resolve-pathname@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@resolve-pathname' },
+     'install:resolve-pathname:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@resolve-pathname' },
+     'download:macaddress@0.2.8': { done: true },
+     'install:color@^0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.4@color' },
+     'install:color:range:0.12.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.4@color' },
+     'download:is-finite@1.0.2': { done: true },
+     'install:sort-keys@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@sort-keys' },
+     'install:sort-keys:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@sort-keys' },
+     'download:color-string@0.3.0': { done: true },
+     'download:color-convert@1.8.2': { done: true },
+     'download:clone@1.0.2': { done: true },
+     'install:globals@^9.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.9.14.0@globals' },
+     'install:globals:range:10.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.9.14.0@globals' },
+     'install:strict-uri-encode@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@strict-uri-encode' },
+     'install:strict-uri-encode:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@strict-uri-encode' },
+     'download:is-plain-obj@1.1.0': { done: true },
+     'install:math-expression-evaluator@^1.2.14': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.14@math-expression-evaluator' },
+     'install:math-expression-evaluator:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.14@math-expression-evaluator' },
+     'download:lodash.indexof@4.0.5': { done: true },
+     'install:is-finite@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@is-finite' },
+     'install:is-finite:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@is-finite' },
+     'download:number-is-nan@1.0.1': { done: true },
+     'install:is-plain-obj@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@is-plain-obj' },
+     'install:is-plain-obj:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@is-plain-obj' },
+     'download:less@2.7.1': { done: true },
+     'install:color-string@^0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@color-string' },
+     'install:color-string:range:0.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@color-string' },
+     'install:lodash.indexof@^4.0.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.0.5@lodash.indexof' },
+     'install:lodash.indexof:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.0.5@lodash.indexof' },
+     'install:color-convert@^1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.2@color-convert' },
+     'install:color-convert:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.2@color-convert' },
+     'download:color-name@1.1.1': { done: true },
+     'install:clone@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@clone' },
+     'install:clone:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@clone' },
+     'install:macaddress@^0.2.8': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.8@macaddress' },
+     'install:macaddress:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.8@macaddress' },
+     'install:postcss-selector-parser@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@postcss-selector-parser' },
+     'install:postcss-selector-parser:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@postcss-selector-parser' },
+     'install:number-is-nan@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@number-is-nan' },
+     'install:number-is-nan:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@number-is-nan' },
+     'download:flatten@1.0.2': { done: true },
+     'download:indexes-of@1.0.1': { done: true },
+     'download:uniq@1.0.1': { done: true },
+     'install:color-name@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@color-name' },
+     'install:color-name:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@color-name' },
+     'install:color-name@^1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@color-name' },
+     'install:http-server@^0.8.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.8.5@http-server' },
+     'install:http-server:range:0.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.8.5@http-server' },
+     'download:optimist@0.6.1': { done: true },
+     'download:portfinder@0.4.0': { done: true },
+     'download:opener@1.4.2': { done: true },
+     'download:colors@1.0.3': { done: true },
+     'download:union@0.4.6': { done: true },
+     'download:ecstatic@0.7.6': { done: true },
+     'download:corser@2.0.1': { done: true },
+     'install:flatten@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@flatten' },
+     'install:flatten:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@flatten' },
+     'install:indexes-of@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@indexes-of' },
+     'install:indexes-of:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@indexes-of' },
+     'install:uniq@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@uniq' },
+     'install:uniq:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@uniq' },
+     'install:opener@~1.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.2@opener' },
+     'install:opener:range:1.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.2@opener' },
+     'install:postcss@^5.0.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss:range:6.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.14': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.10': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.8': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.12': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.11': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'install:postcss@^5.0.16': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.2.7@postcss' },
+     'download:js-base64@2.1.9': { done: true },
+     'download:supports-color@3.1.2': { done: true },
+     'install:corser@~2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@corser' },
+     'install:corser:range:2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@corser' },
+     'download:http-proxy@1.16.2': { done: true },
+     'install:portfinder@0.4.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.0@portfinder' },
+     'install:portfinder:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.0@portfinder' },
+     'install:supports-color@^3.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.2@supports-color' },
+     'install:supports-color:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.2@supports-color' },
+     'download:async@0.9.0': { done: true },
+     'download:has-flag@1.0.0': { done: true },
+     'install:autoprefixer@^6.3.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.6.0@autoprefixer' },
+     'install:autoprefixer:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.6.0@autoprefixer' },
+     'install:svgo@^0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.1@svgo' },
+     'install:svgo:range:0.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.1@svgo' },
+     'install:http-proxy@^1.8.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.16.2@http-proxy' },
+     'install:http-proxy:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.16.2@http-proxy' },
+     'download:normalize-range@0.1.2': { done: true },
+     'download:colors@1.1.2': { done: true },
+     'download:whet.extend@0.9.9': { done: true },
+     'download:browserslist@1.5.1': { done: true },
+     'download:num2fraction@1.2.2': { done: true },
+     'download:js-yaml@3.6.1': { done: true },
+     'download:eventemitter3@1.2.0': { done: true },
+     'install:has-flag@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@has-flag' },
+     'install:has-flag:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@has-flag' },
+     'download:csso@2.2.1': { done: true },
+     'download:sax@1.2.1': { done: true },
+     'install:ecstatic@~0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.6@ecstatic' },
+     'install:ecstatic:range:0.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.6@ecstatic' },
+     'download:coa@1.0.1': { done: true },
+     'download:caniuse-db@1.0.30000602': { done: true },
+     'download:minimist@1.2.0': { done: true },
+     'download:mime@1.3.4': { done: true },
+     'download:url-join@0.0.1': { done: true },
+     'install:colors@1.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.3@colors' },
+     'download:he@0.5.0': { done: true },
+     'install:react-router@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.8.1@react-router' },
+     'install:react-router:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.8.1@react-router' },
+     'install:js-base64@^2.1.9': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.9@js-base64' },
+     'install:js-base64:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.9@js-base64' },
+     'install:async@0.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.0@async' },
+     'download:hoist-non-react-statics@1.2.0': { done: true },
+     'download:history@2.1.2': { done: true },
+     'install:normalize-range@^0.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.2@normalize-range' },
+     'install:normalize-range:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.2@normalize-range' },
+     'install:optimist@0.6.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.1@optimist' },
+     'install:optimist:range:0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.1@optimist' },
+     'install:eventemitter3@1.x.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@eventemitter3' },
+     'install:eventemitter3:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@eventemitter3' },
+     'download:wordwrap@0.0.3': { done: true },
+     'download:minimist@0.0.10': { done: true },
+     'install:browserslist@~1.5.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.5.1@browserslist' },
+     'install:browserslist:range:1.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.5.1@browserslist' },
+     'install:num2fraction@^1.2.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.2@num2fraction' },
+     'install:num2fraction:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.2@num2fraction' },
+     'install:sax@~1.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@sax' },
+     'install:sax:range:1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@sax' },
+     'install:url-join@0.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.1@url-join' },
+     'install:he@^0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.0@he' },
+     'install:he:range:0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.0@he' },
+     'install:mime@^1.2.11': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.4@mime' },
+     'install:mime:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.4@mime' },
+     'install:whet.extend@~0.9.9': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.9@whet.extend' },
+     'install:whet.extend:range:0.10.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.9@whet.extend' },
+     'install:union@~0.4.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.6@union' },
+     'install:union:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.6@union' },
+     'install:wordwrap@~0.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.3@wordwrap' },
+     'install:wordwrap:range:0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.3@wordwrap' },
+     'download:qs@2.3.3': { done: true },
+     'install:colors@~1.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@colors' },
+     'install:colors:range:1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@colors' },
+     'install:hoist-non-react-statics@^1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@hoist-non-react-statics' },
+     'install:hoist-non-react-statics:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@hoist-non-react-statics' },
+     'download:requires-port@1.0.0': { done: true },
+     'install:minimist@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@minimist' },
+     'install:minimist:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@minimist' },
+     'install:minimist@~0.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.10@minimist' },
+     'install:minimist:range:0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.10@minimist' },
+     'install:coa@~1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@coa' },
+     'install:coa:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@coa' },
+     'install:requires-port@1.x.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@requires-port' },
+     'install:requires-port:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@requires-port' },
+     'download:q@1.4.1': { done: true },
+     'install:qs@~2.3.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.3@qs' },
+     'install:qs:range:2.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.3@qs' },
+     'install:js-yaml@~3.6.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.6.1@js-yaml' },
+     'install:js-yaml:range:3.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.6.1@js-yaml' },
+     'download:argparse@1.0.9': { done: true },
+     'install:q@^1.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.1@q' },
+     'install:q:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.1@q' },
+     'download:esprima@2.7.3': { done: true },
+     'download:less-loader@2.2.3': { done: true },
+     'install:csso@~2.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.1@csso' },
+     'install:csso:range:2.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.1@csso' },
+     'install:esprima@^2.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.3@esprima' },
+     'install:esprima:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.3@esprima' },
+     'download:clap@1.1.2': { done: true },
+     'install:clap@^1.0.9': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@clap' },
+     'install:clap:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@clap' },
+     'install:history@^2.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.2@history' },
+     'install:history:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.2@history' },
+     'install:argparse@^1.0.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.9@argparse' },
+     'install:argparse:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.9@argparse' },
+     'download:warning@2.1.0': { done: true },
+     'download:deep-equal@1.0.1': { done: true },
+     'download:query-string@3.0.3': { done: true },
+     'download:sprintf-js@1.0.3': { done: true },
+     'install:query-string@^3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.3@query-string' },
+     'install:query-string:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.3@query-string' },
+     'install:warning@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@warning' },
+     'install:warning:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@warning' },
+     'install:react@^0.14.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.14.8@react' },
+     'install:react:range:0.15.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.14.8@react' },
+     'install:deep-equal@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@deep-equal' },
+     'install:deep-equal:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@deep-equal' },
+     'install:weui@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@weui' },
+     'install:weui:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@weui' },
+     'download:fbjs@0.6.1': { done: true },
+     'download:envify@3.4.1': { done: true },
+     'download:node-uuid@1.4.7': { done: true },
+     'install:sprintf-js@~1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.3@sprintf-js' },
+     'install:sprintf-js:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.3@sprintf-js' },
+     'download:postcss-loader@1.2.1': { done: true },
+     'install:less-loader@^2.2.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.3@less-loader' },
+     'install:less-loader:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.3@less-loader' },
+     'install:envify@^3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.4.1@envify' },
+     'install:envify:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.4.1@envify' },
+     'download:react-native-toast-easy@1.0.4': { done: true },
+     'download:through@2.3.8': { done: true },
+     'download:jstransform@11.0.3': { done: true },
+     'install:postcss-loader@^1.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@postcss-loader' },
+     'install:postcss-loader:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@postcss-loader' },
+     'download:postcss-load-config@1.0.0': { done: true },
+     'install:react-native-toast-easy@^1.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@react-native-toast-easy' },
+     'install:react-native-toast-easy:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@react-native-toast-easy' },
+     'install:through@~2.3.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.8@through' },
+     'install:through:range:2.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.8@through' },
+     'install:postcss-load-config@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@postcss-load-config' },
+     'install:postcss-load-config:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@postcss-load-config' },
+     'download:react-redux@4.4.6': { done: true },
+     'download:postcss-load-options@1.0.2': { done: true },
+     'download:postcss-load-plugins@2.1.0': { done: true },
+     'download:cosmiconfig@2.1.1': { done: true },
+     'install:react-weui@^1.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.3@react-weui' },
+     'install:react-weui:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.3@react-weui' },
+     'install:node-uuid@^1.4.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.7@node-uuid' },
+     'install:node-uuid:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.7@node-uuid' },
+     'download:classnames@2.2.5': { done: true },
+     'install:postcss-load-plugins@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@postcss-load-plugins' },
+     'install:postcss-load-plugins:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@postcss-load-plugins' },
+     'install:postcss-load-options@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@postcss-load-options' },
+     'install:postcss-load-options:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@postcss-load-options' },
+     'download:mobile-detect@1.3.5': { done: true },
+     'install:cosmiconfig@^2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.1@cosmiconfig' },
+     'install:cosmiconfig:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.1@cosmiconfig' },
+     'install:cosmiconfig@^2.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.1@cosmiconfig' },
+     'download:react-touch-loader@1.0.2': { done: true },
+     'download:parse-json@2.2.0': { done: true },
+     'download:js-yaml@3.7.0': { done: true },
+     'download:require-from-string@1.2.1': { done: true },
+     'install:classnames@^2.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.5@classnames' },
+     'install:classnames:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.5@classnames' },
+     'install:require-from-string@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@require-from-string' },
+     'install:require-from-string:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@require-from-string' },
+     'install:babel-runtime@^6.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-runtime' },
+     'install:babel-runtime:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-runtime' },
+     'install:babel-runtime@^6.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-runtime' },
+     'install:babel-runtime@^6.11.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-runtime' },
+     'install:babel-runtime@^6.20.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-runtime' },
+     'install:babel-runtime@^6.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.20.0@babel-runtime' },
+     'download:regenerator-runtime@0.10.1': { done: true },
+     'install:parse-json@^2.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.0@parse-json' },
+     'install:parse-json:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.0@parse-json' },
+     'install:mobile-detect@^1.3.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.5@mobile-detect' },
+     'install:mobile-detect:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.5@mobile-detect' },
+     'install:react-redux@^4.4.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.4.6@react-redux' },
+     'install:react-redux:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.4.6@react-redux' },
+     'download:error-ex@1.3.0': { done: true },
+     'install:react-touch-loader@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@react-touch-loader' },
+     'install:react-touch-loader:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@react-touch-loader' },
+     'install:regenerator-runtime@^0.10.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.1@regenerator-runtime' },
+     'install:regenerator-runtime:range:0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.1@regenerator-runtime' },
+     'download:uglify-loader@1.4.0': { done: true },
+     'download:redux@3.6.0': { done: true },
+     'install:error-ex@^1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@error-ex' },
+     'install:error-ex:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@error-ex' },
+     'download:is-arrayish@0.2.1': { done: true },
+     'install:uglify-loader@^1.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.0@uglify-loader' },
+     'install:uglify-loader:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.0@uglify-loader' },
+     'download:uglify-js@2.7.5': { done: true },
+     'install:jstransform@^11.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.11.0.3@jstransform' },
+     'install:jstransform:range:12.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.11.0.3@jstransform' },
+     'install:js-yaml@^3.4.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.7.0@js-yaml' },
+     'install:js-yaml:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.7.0@js-yaml' },
+     'download:esprima-fb@15001.1.0-dev-harmony-fb': { done: true },
+     'download:base62@1.1.2': { done: true },
+     'download:source-map@0.4.4': { done: true },
+     'install:redux@^3.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.6.0@redux' },
+     'install:redux:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.6.0@redux' },
+     'install:is-arrayish@^0.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@is-arrayish' },
+     'install:is-arrayish:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@is-arrayish' },
+     'download:lodash-es@4.17.2': { done: true },
+     'download:symbol-observable@1.0.4': { done: true },
+     'install:uglify-js@^2.4.16': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.5@uglify-js' },
+     'install:uglify-js:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.5@uglify-js' },
+     'install:base62@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@base62' },
+     'install:base62:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@base62' },
+     'download:uglify-to-browserify@1.0.2': { done: true },
+     'download:commoner@0.10.8': { done: true },
+     'download:yargs@3.10.0': { done: true },
+     'download:url-loader@0.5.7': { done: true },
+     'download:async@0.2.10': { done: true },
+     'install:uglify-to-browserify@~1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@uglify-to-browserify' },
+     'install:uglify-to-browserify:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@uglify-to-browserify' },
+     'install:symbol-observable@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@symbol-observable' },
+     'install:symbol-observable:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@symbol-observable' },
+     'install:source-map@^0.4.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.4@source-map' },
+     'install:source-map:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.4@source-map' },
+     'install:url-loader@^0.5.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.7@url-loader' },
+     'install:url-loader:range:0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.7@url-loader' },
+     'install:async@~0.2.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.10@async' },
+     'install:async:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.10@async' },
+     'download:amdefine@1.0.1': { done: true },
+     'download:mime@1.2.11': { done: true },
+     'install:yargs@~3.10.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.10.0@yargs' },
+     'install:yargs:range:3.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.10.0@yargs' },
+     'install:commoner@^0.10.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.8@commoner' },
+     'install:commoner:range:0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.8@commoner' },
+     'download:camelcase@1.2.1': { done: true },
+     'download:window-size@0.1.0': { done: true },
+     'download:cliui@2.1.0': { done: true },
+     'install:esprima-fb@^15001.1.0-dev-harmony-fb': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.15001.1.0-dev-harmony-fb@esprima-fb' },
+     'install:esprima-fb:range:15002.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.15001.1.0-dev-harmony-fb@esprima-fb' },
+     'download:detective@4.3.2': { done: true },
+     'download:graceful-fs@4.1.11': { done: true },
+     'download:iconv-lite@0.4.15': { done: true },
+     'install:amdefine@>=0.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@amdefine' },
+     'download:recast@0.11.18': { done: true },
+     'download:commander@2.9.0': { done: true },
+     'install:window-size@0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.0@window-size' },
+     'install:camelcase@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@camelcase' },
+     'install:camelcase:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.1@camelcase' },
+     'download:glob@5.0.15': { done: true },
+     'install:fbjs@^0.6.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.1@fbjs' },
+     'install:fbjs:range:0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.1@fbjs' },
+     'install:mime@1.2.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.11@mime' },
+     'install:mime:range:1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.11@mime' },
+     'download:promise@7.1.1': { done: true },
+     'download:whatwg-fetch@0.9.0': { done: true },
+     'install:cliui@^2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@cliui' },
+     'install:cliui:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@cliui' },
+     'download:ua-parser-js@0.7.12': { done: true },
+     'install:graceful-fs@^4.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.1.11@graceful-fs' },
+     'install:graceful-fs:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.1.11@graceful-fs' },
+     'download:core-js@1.2.7': { done: true },
+     'download:center-align@0.1.3': { done: true },
+     'download:wordwrap@0.0.2': { done: true },
+     'download:right-align@0.1.3': { done: true },
+     'install:commander@^2.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.9.0@commander' },
+     'install:commander:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.9.0@commander' },
+     'install:glob@^5.0.15': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.0.15@glob' },
+     'install:glob:range:6.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.5.0.15@glob' },
+     'download:graceful-readlink@1.0.1': { done: true },
+     'download:once@1.4.0': { done: true },
+     'download:inherits@2.0.3': { done: true },
+     'download:inflight@1.0.6': { done: true },
+     'install:minimatch@2 || 3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.3@minimatch' },
+     'install:minimatch:range:3.0.0||>=3.0.0 <4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.3@minimatch' },
+     'install:right-align@^0.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.3@right-align' },
+     'install:right-align:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.3@right-align' },
+     'install:center-align@^0.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.3@center-align' },
+     'install:center-align:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.3@center-align' },
+     'install:whatwg-fetch@^0.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.0@whatwg-fetch' },
+     'install:whatwg-fetch:range:0.10.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.0@whatwg-fetch' },
+     'download:align-text@0.1.4': { done: true },
+     'download:lazy-cache@1.0.4': { done: true },
+     'install:inflight@^1.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.6@inflight' },
+     'install:inflight:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.6@inflight' },
+     'install:once@^1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.0@once' },
+     'install:once:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.0@once' },
+     'install:graceful-readlink@>= 1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@graceful-readlink' },
+     'install:inherits@2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.3@inherits' },
+     'install:inherits:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.3@inherits' },
+     'install:wordwrap@0.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.2@wordwrap' },
+     'download:wrappy@1.0.2': { done: true },
+     'install:align-text@^0.1.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@align-text' },
+     'install:align-text:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@align-text' },
+     'install:align-text@^0.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@align-text' },
+     'install:lazy-cache@^1.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@lazy-cache' },
+     'install:lazy-cache:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@lazy-cache' },
+     'download:repeat-string@1.6.1': { done: true },
+     'download:longest@1.0.1': { done: true },
+     'install:recast@^0.11.17': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.18@recast' },
+     'install:recast:range:0.12.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.18@recast' },
+     'download:kind-of@3.1.0': { done: true },
+     'download:ast-types@0.9.2': { done: true },
+     'download:esprima@3.1.3': { done: true },
+     'install:ua-parser-js@^0.7.9': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.12@ua-parser-js' },
+     'install:ua-parser-js:range:0.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.12@ua-parser-js' },
+     'download:validator@6.2.0': { done: true },
+     'install:wrappy@1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@wrappy' },
+     'install:wrappy:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@wrappy' },
+     'install:repeat-string@^1.5.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.1@repeat-string' },
+     'install:repeat-string:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.1@repeat-string' },
+     'install:iconv-lite@^0.4.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.15@iconv-lite' },
+     'install:iconv-lite:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.15@iconv-lite' },
+     'install:longest@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@longest' },
+     'install:longest:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@longest' },
+     'install:kind-of@^3.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.0@kind-of' },
+     'install:kind-of:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.0@kind-of' },
+     'install:detective@^4.3.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.3.2@detective' },
+     'install:detective:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.3.2@detective' },
+     'download:is-buffer@1.1.4': { done: true },
+     'download:acorn@3.3.0': { done: true },
+     'install:is-buffer@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.4@is-buffer' },
+     'install:is-buffer:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.4@is-buffer' },
+     'install:esprima@~3.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.3@esprima' },
+     'install:esprima:range:3.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.3@esprima' },
+     'install:promise@^7.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.7.1.1@promise' },
+     'install:promise:range:8.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.7.1.1@promise' },
+     'download:asap@2.0.5': { done: true },
+     'install:ast-types@0.9.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.2@ast-types' },
+     'install:asap@~2.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.5@asap' },
+     'install:asap:range:2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.5@asap' },
+     'download:webpack@1.14.0': { done: true },
+     'install:acorn@^3.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@acorn' },
+     'install:acorn:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@acorn' },
+     'install:validator@^6.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.2.0@validator' },
+     'install:validator:range:7.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.2.0@validator' },
+     'download:webpack-dev-server@1.16.2': { done: true },
+     'install:webpack-dev-server@^1.14.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.16.2@webpack-dev-server' },
+     'install:webpack-dev-server:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.16.2@webpack-dev-server' },
+     'download:stream-cache@0.0.2': { done: true },
+     'download:connect-history-api-fallback@1.3.0': { done: true },
+     'download:open@0.0.5': { done: true },
+     'download:webpack-dev-middleware@1.9.0': { done: true },
+     'download:compression@1.6.2': { done: true },
+     'download:sockjs@0.3.18': { done: true },
+     'download:serve-index@1.8.0': { done: true },
+     'download:express@4.14.0': { done: true },
+     'download:sockjs-client@1.1.1': { done: true },
+     'download:http-proxy-middleware@0.17.3': { done: true },
+     'install:compression@^1.5.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.2@compression' },
+     'install:compression:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.2@compression' },
+     'download:on-headers@1.0.1': { done: true },
+     'download:accepts@1.3.3': { done: true },
+     'download:compressible@2.0.9': { done: true },
+     'install:open@0.0.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.5@open' },
+     'download:debug@2.2.0': { done: true },
+     'download:bytes@2.3.0': { done: true },
+     'download:vary@1.1.0': { done: true },
+     'install:connect-history-api-fallback@^1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@connect-history-api-fallback' },
+     'install:connect-history-api-fallback:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@connect-history-api-fallback' },
+     'install:webpack-dev-middleware@^1.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.9.0@webpack-dev-middleware' },
+     'install:webpack-dev-middleware:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.9.0@webpack-dev-middleware' },
+     'download:memory-fs@0.4.1': { done: true },
+     'download:range-parser@1.2.0': { done: true },
+     'install:on-headers@~1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@on-headers' },
+     'install:on-headers:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@on-headers' },
+     'install:compressible@~2.0.8': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.9@compressible' },
+     'install:compressible:range:2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.9@compressible' },
+     'install:accepts@~1.3.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.3@accepts' },
+     'install:accepts:range:1.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.3@accepts' },
+     'install:vary@~1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@vary' },
+     'install:vary:range:1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@vary' },
+     'install:bytes@2.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.0@bytes' },
+     'install:http-proxy-middleware@~0.17.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.17.3@http-proxy-middleware' },
+     'install:http-proxy-middleware:range:0.18.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.17.3@http-proxy-middleware' },
+     'download:negotiator@0.6.1': { done: true },
+     'download:mime-types@2.1.13': { done: true },
+     'download:mime-db@1.25.0': { done: true },
+     'install:memory-fs@~0.4.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.1@memory-fs' },
+     'install:memory-fs:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.1@memory-fs' },
+     'install:stream-cache@~0.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.2@stream-cache' },
+     'install:stream-cache:range:0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.2@stream-cache' },
+     'install:range-parser@^1.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@range-parser' },
+     'install:range-parser:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@range-parser' },
+     'download:is-glob@3.1.0': { done: true },
+     'install:express@^4.13.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.14.0@express' },
+     'install:express:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.14.0@express' },
+     'download:readable-stream@2.2.2': { done: true },
+     'download:errno@0.1.4': { done: true },
+     'download:array-flatten@1.1.1': { done: true },
+     'download:content-disposition@0.5.1': { done: true },
+     'download:cookie-signature@1.0.6': { done: true },
+     'download:content-type@1.0.2': { done: true },
+     'download:cookie@0.3.1': { done: true },
+     'download:micromatch@2.3.11': { done: true },
+     'download:depd@1.1.0': { done: true },
+     'download:encodeurl@1.0.1': { done: true },
+     'download:escape-html@1.0.3': { done: true },
+     'download:fresh@0.3.0': { done: true },
+     'download:etag@1.7.0': { done: true },
+     'download:finalhandler@0.5.0': { done: true },
+     'download:methods@1.1.2': { done: true },
+     'install:debug@~2.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.0@debug' },
+     'install:debug:range:2.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.0@debug' },
+     'download:merge-descriptors@1.0.1': { done: true },
+     'download:parseurl@1.3.1': { done: true },
+     'install:range-parser@~1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@range-parser' },
+     'install:range-parser:range:1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@range-parser' },
+     'download:proxy-addr@1.1.2': { done: true },
+     'download:qs@6.2.0': { done: true },
+     'download:type-is@1.6.14': { done: true },
+     'download:serve-static@1.11.1': { done: true },
+     'download:send@0.14.1': { done: true },
+     'download:path-to-regexp@0.1.7': { done: true },
+     'download:ms@0.7.1': { done: true },
+     'download:utils-merge@1.0.0': { done: true },
+     'install:mime-types@~2.1.11': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.13@mime-types' },
+     'install:mime-types:range:2.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.13@mime-types' },
+     'install:is-glob@^3.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.0@is-glob' },
+     'install:is-glob:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.1.0@is-glob' },
+     'download:is-extglob@2.1.1': { done: true },
+     'download:on-finished@2.3.0': { done: true },
+     'install:array-flatten@1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@array-flatten' },
+     'install:content-disposition@0.5.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.1@content-disposition' },
+     'install:content-type@~1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@content-type' },
+     'install:content-type:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@content-type' },
+     'install:mime-db@>= 1.24.0 < 2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.25.0@mime-db' },
+     'install:mime-db:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.25.0@mime-db' },
+     'install:mime-db@~1.25.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.25.0@mime-db' },
+     'install:mime-db:range:1.26.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.25.0@mime-db' },
+     'install:escape-html@~1.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.3@escape-html' },
+     'install:escape-html:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.3@escape-html' },
+     'install:negotiator@0.6.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.1@negotiator' },
+     'install:cookie-signature@1.0.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.6@cookie-signature' },
+     'install:cookie@0.3.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.1@cookie' },
+     'install:encodeurl@~1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@encodeurl' },
+     'install:encodeurl:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@encodeurl' },
+     'install:fresh@0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@fresh' },
+     'download:object-assign@2.1.1': { done: true },
+     'install:methods@~1.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@methods' },
+     'install:methods:range:1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@methods' },
+     'install:finalhandler@0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.0@finalhandler' },
+     'install:merge-descriptors@1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@merge-descriptors' },
+     'install:parseurl@~1.3.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.1@parseurl' },
+     'install:parseurl:range:1.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.1@parseurl' },
+     'install:proxy-addr@~1.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@proxy-addr' },
+     'install:proxy-addr:range:1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@proxy-addr' },
+     'download:statuses@1.3.1': { done: true },
+     'download:unpipe@1.0.0': { done: true },
+     'install:serve-static@~1.11.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.11.1@serve-static' },
+     'install:serve-static:range:1.12.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.11.1@serve-static' },
+     'install:type-is@~1.6.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.14@type-is' },
+     'install:type-is:range:1.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.14@type-is' },
+     'download:ipaddr.js@1.1.1': { done: true },
+     'download:forwarded@0.1.0': { done: true },
+     'install:utils-merge@1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@utils-merge' },
+     'install:etag@~1.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.7.0@etag' },
+     'install:etag:range:1.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.7.0@etag' },
+     'install:send@0.14.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.14.1@send' },
+     'download:media-typer@0.3.0': { done: true },
+     'install:path-to-regexp@0.1.7': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.7@path-to-regexp' },
+     'install:mime@1.3.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.4@mime' },
+     'download:http-errors@1.5.1': { done: true },
+     'install:ms@0.7.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.1@ms' },
+     'install:errno@^0.1.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@errno' },
+     'install:errno:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@errno' },
+     'install:is-extglob@^2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.1@is-extglob' },
+     'install:is-extglob:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.1@is-extglob' },
+     'install:micromatch@^2.3.11': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.11@micromatch' },
+     'install:micromatch:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.11@micromatch' },
+     'download:prr@0.0.0': { done: true },
+     'install:on-finished@~2.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.0@on-finished' },
+     'install:on-finished:range:2.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.3.0@on-finished' },
+     'download:arr-diff@2.0.0': { done: true },
+     'download:array-unique@0.2.1': { done: true },
+     'download:is-glob@2.0.1': { done: true },
+     'download:is-extglob@1.0.0': { done: true },
+     'download:extglob@0.3.2': { done: true },
+     'download:expand-brackets@0.1.5': { done: true },
+     'download:normalize-path@2.0.1': { done: true },
+     'download:braces@1.8.5': { done: true },
+     'install:depd@~1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@depd' },
+     'install:depd:range:1.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@depd' },
+     'download:filename-regex@2.0.0': { done: true },
+     'download:regex-cache@0.4.3': { done: true },
+     'download:parse-glob@3.0.4': { done: true },
+     'download:object.omit@2.0.1': { done: true },
+     'download:ee-first@1.1.1': { done: true },
+     'download:destroy@1.0.4': { done: true },
+     'install:unpipe@~1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@unpipe' },
+     'install:unpipe:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@unpipe' },
+     'install:forwarded@~0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.0@forwarded' },
+     'install:forwarded:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.0@forwarded' },
+     'install:media-typer@0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@media-typer' },
+     'install:statuses@~1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.1@statuses' },
+     'install:statuses:range:1.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.1@statuses' },
+     'install:http-errors@~1.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.5.1@http-errors' },
+     'install:http-errors:range:1.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.5.1@http-errors' },
+     'install:inherits@2.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.3@inherits' },
+     'install:filename-regex@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@filename-regex' },
+     'install:filename-regex:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@filename-regex' },
+     'download:setprototypeof@1.0.2': { done: true },
+     'install:statuses@>= 1.3.1 < 2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.1@statuses' },
+     'install:statuses:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.1@statuses' },
+     'install:array-unique@^0.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@array-unique' },
+     'install:array-unique:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@array-unique' },
+     'install:is-glob@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@is-glob' },
+     'install:is-glob:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@is-glob' },
+     'install:is-extglob@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@is-extglob' },
+     'install:is-extglob:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@is-extglob' },
+     'install:arr-diff@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@arr-diff' },
+     'install:arr-diff:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@arr-diff' },
+     'install:normalize-path@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@normalize-path' },
+     'install:normalize-path:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@normalize-path' },
+     'install:extglob@^0.3.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.2@extglob' },
+     'install:extglob:range:0.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.2@extglob' },
+     'install:expand-brackets@^0.1.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.5@expand-brackets' },
+     'install:expand-brackets:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.5@expand-brackets' },
+     'download:arr-flatten@1.0.1': { done: true },
+     'download:is-posix-bracket@0.1.1': { done: true },
+     'install:ee-first@1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@ee-first' },
+     'install:braces@^1.8.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.5@braces' },
+     'install:braces:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.5@braces' },
+     'install:regex-cache@^0.4.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.3@regex-cache' },
+     'install:regex-cache:range:0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.3@regex-cache' },
+     'install:destroy@~1.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@destroy' },
+     'install:destroy:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.4@destroy' },
+     'install:object.omit@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@object.omit' },
+     'install:object.omit:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@object.omit' },
+     'install:parse-glob@^3.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.4@parse-glob' },
+     'install:parse-glob:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.0.4@parse-glob' },
+     'install:readable-stream@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@readable-stream' },
+     'install:readable-stream:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.2@readable-stream' },
+     'download:repeat-element@1.1.2': { done: true },
+     'download:expand-range@1.8.2': { done: true },
+     'download:is-equal-shallow@0.1.3': { done: true },
+     'install:qs@6.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.6.2.0@qs' },
+     'download:preserve@0.2.0': { done: true },
+     'download:is-primitive@2.0.0': { done: true },
+     'download:for-own@0.1.4': { done: true },
+     'download:is-extendable@0.1.1': { done: true },
+     'download:is-dotfile@1.0.2': { done: true },
+     'download:buffer-shims@1.0.0': { done: true },
+     'install:inherits@~2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.3@inherits' },
+     'install:inherits:range:2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.3@inherits' },
+     'download:string_decoder@0.10.31': { done: true },
+     'download:glob-base@0.3.0': { done: true },
+     'download:core-util-is@1.0.2': { done: true },
+     'download:process-nextick-args@1.0.7': { done: true },
+     'download:isarray@1.0.0': { done: true },
+     'download:util-deprecate@1.0.2': { done: true },
+     'install:prr@~0.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.0@prr' },
+     'install:prr:range:0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.0@prr' },
+     'install:ipaddr.js@1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@ipaddr.js' },
+     'install:setprototypeof@1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@setprototypeof' },
+     'install:arr-flatten@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@arr-flatten' },
+     'install:arr-flatten:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@arr-flatten' },
+     'install:is-posix-bracket@^0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@is-posix-bracket' },
+     'install:is-posix-bracket:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@is-posix-bracket' },
+     'install:repeat-element@^1.1.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@repeat-element' },
+     'install:repeat-element:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.2@repeat-element' },
+     'install:expand-range@^1.8.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.2@expand-range' },
+     'install:expand-range:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.2@expand-range' },
+     'install:is-equal-shallow@^0.1.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.3@is-equal-shallow' },
+     'install:is-equal-shallow:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.3@is-equal-shallow' },
+     'install:is-primitive@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@is-primitive' },
+     'install:is-primitive:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@is-primitive' },
+     'install:is-extendable@^0.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@is-extendable' },
+     'install:is-extendable:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@is-extendable' },
+     'install:is-dotfile@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@is-dotfile' },
+     'install:is-dotfile:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@is-dotfile' },
+     'install:for-own@^0.1.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@for-own' },
+     'install:for-own:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@for-own' },
+     'install:buffer-shims@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@buffer-shims' },
+     'install:buffer-shims:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@buffer-shims' },
+     'install:glob-base@^0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@glob-base' },
+     'install:glob-base:range:0.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@glob-base' },
+     'download:fill-range@2.2.3': { done: true },
+     'download:for-in@0.1.6': { done: true },
+     'download:glob-parent@2.0.0': { done: true },
+     'install:string_decoder@~0.10.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.31@string_decoder' },
+     'install:string_decoder:range:0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.31@string_decoder' },
+     'install:sockjs@^0.3.15': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.18@sockjs' },
+     'install:sockjs:range:0.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.18@sockjs' },
+     'install:process-nextick-args@~1.0.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.7@process-nextick-args' },
+     'install:process-nextick-args:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.7@process-nextick-args' },
+     'install:core-util-is@~1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@core-util-is' },
+     'install:core-util-is:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@core-util-is' },
+     'install:util-deprecate@~1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@util-deprecate' },
+     'install:util-deprecate:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.2@util-deprecate' },
+     'install:isarray@~1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@isarray' },
+     'install:isarray:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@isarray' },
+     'download:faye-websocket@0.10.0': { done: true },
+     'install:preserve@^0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@preserve' },
+     'install:preserve:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@preserve' },
+     'install:fill-range@^2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.3@fill-range' },
+     'install:fill-range:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.3@fill-range' },
+     'install:for-in@^0.1.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.6@for-in' },
+     'install:for-in:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.6@for-in' },
+     'download:isobject@2.1.0': { done: true },
+     'download:is-number@2.1.0': { done: true },
+     'download:randomatic@1.1.6': { done: true },
+     'install:glob-parent@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@glob-parent' },
+     'install:glob-parent:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@glob-parent' },
+     'install:object-assign@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.1@object-assign' },
+     'install:object-assign:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.1@object-assign' },
+     'install:isobject@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@isobject' },
+     'install:isobject:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@isobject' },
+     'install:is-number@^2.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@is-number' },
+     'install:is-number:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@is-number' },
+     'install:randomatic@^1.1.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.6@randomatic' },
+     'install:randomatic:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.6@randomatic' },
+     'install:isarray@1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@isarray' },
+     'install:sockjs-client@^1.0.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@sockjs-client' },
+     'install:sockjs-client:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@sockjs-client' },
+     'download:eventsource@0.1.6': { done: true },
+     'install:faye-websocket@^0.10.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.0@faye-websocket' },
+     'install:faye-websocket:range:0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.0@faye-websocket' },
+     'download:json3@3.3.2': { done: true },
+     'download:faye-websocket@0.11.0': { done: true },
+     'download:url-parse@1.1.7': { done: true },
+     'download:uuid@2.0.3': { done: true },
+     'download:websocket-driver@0.6.5': { done: true },
+     'install:url-parse@^1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.7@url-parse' },
+     'install:url-parse:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.7@url-parse' },
+     'install:json3@^3.3.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.2@json3' },
+     'install:json3:range:4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.2@json3' },
+     'install:requires-port@1.0.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@requires-port' },
+     'install:requires-port:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@requires-port' },
+     'download:querystringify@0.0.4': { done: true },
+     'install:eventsource@~0.1.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.6@eventsource' },
+     'install:eventsource:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.6@eventsource' },
+     'install:querystringify@0.0.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.4@querystringify' },
+     'install:querystringify:range:0.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.4@querystringify' },
+     'install:serve-index@^1.7.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.0@serve-index' },
+     'install:serve-index:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.0@serve-index' },
+     'download:batch@0.5.3': { done: true },
+     'download:original@1.0.0': { done: true },
+     'install:faye-websocket@~0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.0@faye-websocket' },
+     'install:faye-websocket:range:0.12.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.0@faye-websocket' },
+     'install:uuid@^2.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.3@uuid' },
+     'install:uuid:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.3@uuid' },
+     'install:websocket-driver@>=0.5.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.5@websocket-driver' },
+     'install:batch@0.5.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.3@batch' },
+     'install:original@>=0.0.5': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@original' },
+     'download:websocket-extensions@0.1.1': { done: true },
+     'download:url-parse@1.0.5': { done: true },
+     'install:webpack@^1.12.13': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.14.0@webpack' },
+     'install:webpack:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.14.0@webpack' },
+     'download:watchpack@0.2.9': { done: true },
+     'download:tapable@0.1.10': { done: true },
+     'download:memory-fs@0.3.0': { done: true },
+     'download:interpret@0.6.6': { done: true },
+     'download:enhanced-resolve@0.9.1': { done: true },
+     'download:node-libs-browser@0.7.0': { done: true },
+     'download:webpack-core@0.6.9': { done: true },
+     'install:uglify-js@~2.7.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.5@uglify-js' },
+     'install:uglify-js:range:2.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.5@uglify-js' },
+     'download:async@1.5.2': { done: true },
+     'install:interpret@^0.6.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.6@interpret' },
+     'install:interpret:range:0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.6@interpret' },
+     'install:tapable@~0.1.8': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.10@tapable' },
+     'install:tapable:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.10@tapable' },
+     'install:url-parse@1.0.x': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@url-parse' },
+     'install:url-parse:range:1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@url-parse' },
+     'install:websocket-extensions@>=0.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.1@websocket-extensions' },
+     'install:memory-fs@~0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@memory-fs' },
+     'install:memory-fs:range:0.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.3.0@memory-fs' },
+     'install:node-libs-browser@^0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.0@node-libs-browser' },
+     'install:node-libs-browser:range:0.8.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.7.0@node-libs-browser' },
+     'install:watchpack@^0.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.9@watchpack' },
+     'install:watchpack:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.9@watchpack' },
+     'download:browserify-zlib@0.1.4': { done: true },
+     'download:https-browserify@0.0.1': { done: true },
+     'install:async@^1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.5.2@async' },
+     'install:async:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.5.2@async' },
+     'download:assert@1.4.1': { done: true },
+     'download:crypto-browserify@3.3.0': { done: true },
+     'download:console-browserify@1.1.0': { done: true },
+     'download:events@1.1.1': { done: true },
+     'download:os-browserify@0.2.1': { done: true },
+     'download:domain-browser@1.1.7': { done: true },
+     'download:constants-browserify@1.0.0': { done: true },
+     'download:process@0.11.9': { done: true },
+     'download:buffer@4.9.1': { done: true },
+     'download:querystring-es3@0.2.1': { done: true },
+     'download:stream-browserify@2.0.1': { done: true },
+     'download:punycode@1.4.1': { done: true },
+     'download:tty-browserify@0.0.0': { done: true },
+     'download:timers-browserify@2.0.2': { done: true },
+     'download:vm-browserify@0.0.4': { done: true },
+     'download:util@0.10.3': { done: true },
+     'download:url@0.11.0': { done: true },
+     'download:stream-http@2.5.0': { done: true },
+     'download:path-browserify@0.0.0': { done: true },
+     'download:chokidar@1.6.1': { done: true },
+     'install:webpack-core@~0.6.9': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.9@webpack-core' },
+     'install:webpack-core:range:0.7.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.6.9@webpack-core' },
+     'install:https-browserify@0.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.1@https-browserify' },
+     'install:enhanced-resolve@~0.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.1@enhanced-resolve' },
+     'install:enhanced-resolve:range:0.10.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.1@enhanced-resolve' },
+     'download:memory-fs@0.2.0': { done: true },
+     'install:tty-browserify@0.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.0@tty-browserify' },
+     'install:constants-browserify@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@constants-browserify' },
+     'install:constants-browserify:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@constants-browserify' },
+     'install:punycode@^1.2.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.1@punycode' },
+     'install:punycode:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.1@punycode' },
+     'install:os-browserify@^0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@os-browserify' },
+     'install:os-browserify:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@os-browserify' },
+     'install:path-browserify@0.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.0@path-browserify' },
+     'install:timers-browserify@^2.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@timers-browserify' },
+     'install:timers-browserify:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.2@timers-browserify' },
+     'install:process@^0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.9@process' },
+     'install:process:range:0.12.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.9@process' },
+     'install:stream-browserify@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@stream-browserify' },
+     'install:stream-browserify:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@stream-browserify' },
+     'install:assert@^1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.1@assert' },
+     'install:assert:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.4.1@assert' },
+     'install:domain-browser@^1.1.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.7@domain-browser' },
+     'install:domain-browser:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.7@domain-browser' },
+     'download:setimmediate@1.0.5': { done: true },
+     'install:console-browserify@^1.1.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@console-browserify' },
+     'install:console-browserify:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.0@console-browserify' },
+     'install:vm-browserify@0.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.4@vm-browserify' },
+     'download:date-now@0.1.4': { done: true },
+     'install:chokidar@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.1@chokidar' },
+     'install:chokidar:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.6.1@chokidar' },
+     'install:querystring-es3@^0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@querystring-es3' },
+     'install:querystring-es3:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.1@querystring-es3' },
+     'install:url@^0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.0@url' },
+     'install:url:range:0.12.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.11.0@url' },
+     'download:indexof@0.0.1': { done: true },
+     'download:is-binary-path@1.0.1': { done: true },
+     'download:anymatch@1.3.0': { done: true },
+     'download:punycode@1.3.2': { done: true },
+     'download:async-each@1.0.1': { done: true },
+     'download:fsevents@1.0.15': { done: true },
+     'download:readdirp@2.1.0': { done: true },
+     'install:setimmediate@^1.0.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@setimmediate' },
+     'install:setimmediate:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.5@setimmediate' },
+     'install:memory-fs@^0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@memory-fs' },
+     'install:memory-fs:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@memory-fs' },
+     'download:querystring@0.2.0': { done: true },
+     'install:util@^0.10.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.3@util' },
+     'install:util:range:0.11.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.3@util' },
+     'install:util@0.10.3': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.10.3@util' },
+     'install:punycode@1.3.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.2@punycode' },
+     'install:is-binary-path@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@is-binary-path' },
+     'install:is-binary-path:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@is-binary-path' },
+     'download:inherits@2.0.1': { done: true },
+     'install:indexof@0.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.0.1@indexof' },
+     'install:anymatch@^1.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@anymatch' },
+     'install:anymatch:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.3.0@anymatch' },
+     'install:async-each@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@async-each' },
+     'install:async-each:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@async-each' },
+     'download:binary-extensions@1.8.0': { done: true },
+     'download:arrify@1.0.1': { done: true },
+     'install:browserify-zlib@^0.1.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@browserify-zlib' },
+     'install:browserify-zlib:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@browserify-zlib' },
+     'install:date-now@^0.1.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@date-now' },
+     'install:date-now:range:0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.1.4@date-now' },
+     'install:events@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@events' },
+     'install:events:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.1@events' },
+     'download:pako@0.2.9': { done: true },
+     'install:inherits@2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@inherits' },
+     'install:querystring@0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@querystring' },
+     'install:stream-http@^2.3.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.5.0@stream-http' },
+     'install:stream-http:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.5.0@stream-http' },
+     'download:to-arraybuffer@1.0.1': { done: true },
+     'download:xtend@4.0.1': { done: true },
+     'download:builtin-status-codes@2.0.0': { done: true },
+     'install:crypto-browserify@3.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.3.3.0@crypto-browserify' },
+     'install:readdirp@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@readdirp' },
+     'install:readdirp:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.1.0@readdirp' },
+     'download:pbkdf2-compat@2.0.1': { done: true },
+     'download:sha.js@2.2.6': { done: true },
+     'download:browserify-aes@0.4.0': { done: true },
+     'download:ripemd160@0.2.0': { done: true },
+     'download:set-immediate-shim@1.0.1': { done: true },
+     'install:arrify@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@arrify' },
+     'install:arrify:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@arrify' },
+     'install:builtin-status-codes@^2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@builtin-status-codes' },
+     'install:builtin-status-codes:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.0@builtin-status-codes' },
+     'install:set-immediate-shim@^1.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@set-immediate-shim' },
+     'install:set-immediate-shim:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@set-immediate-shim' },
+     'install:binary-extensions@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.0@binary-extensions' },
+     'install:binary-extensions:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.8.0@binary-extensions' },
+     'install:to-arraybuffer@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@to-arraybuffer' },
+     'install:to-arraybuffer:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.1@to-arraybuffer' },
+     'install:buffer@^4.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.9.1@buffer' },
+     'install:buffer:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.9.1@buffer' },
+     'install:xtend@^4.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.0.1@xtend' },
+     'install:xtend:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.0.1@xtend' },
+     'install:ripemd160@0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.0@ripemd160' },
+     'download:base64-js@1.2.0': { done: true },
+     'download:ieee754@1.1.8': { done: true },
+     'install:isarray@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@isarray' },
+     'install:isarray:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.0@isarray' },
+     'install:pbkdf2-compat@2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@pbkdf2-compat' },
+     'install:ieee754@^1.1.4': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.8@ieee754' },
+     'install:ieee754:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.1.8@ieee754' },
+     'install:base64-js@^1.0.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@base64-js' },
+     'install:base64-js:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.0@base64-js' },
+     'install:pako@~0.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.9@pako' },
+     'install:pako:range:0.3.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.2.9@pako' },
+     'download:async@0.9.2': { done: true },
+     'install:browserify-aes@0.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.4.0@browserify-aes' },
+     'install:async@^0.9.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.2@async' },
+     'install:async:range:0.10.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.9.2@async' },
+     'install:caniuse-db@^1.0.30000602': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.30000602@caniuse-db' },
+     'install:caniuse-db:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.30000602@caniuse-db' },
+     'install:caniuse-db@^1.0.30000601': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.30000602@caniuse-db' },
+     'download:whatwg-fetch@2.0.1': { done: true },
+     'install:sha.js@2.2.6': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.2.6@sha.js' },
+     'install:whatwg-fetch@^2.0.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@whatwg-fetch' },
+     'install:whatwg-fetch:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.0.1@whatwg-fetch' },
+     'install:lodash-es@^4.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.17.2@lodash-es' },
+     'install:lodash-es:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.17.2@lodash-es' },
+     'install:less@^2.7.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.1@less' },
+     'install:less:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.7.1@less' },
+     'download:image-size@0.5.0': { done: true },
+     'install:image-size@~0.5.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.0@image-size' },
+     'install:image-size:range:0.6.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.0.5.0@image-size' },
+     'install:lodash@^4.2.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.17.2@lodash' },
+     'install:lodash:range:5.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.17.2@lodash' },
+     'install:lodash@^4.2.1': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.17.2@lodash' },
+     'install:lodash@^4.17.2': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.4.17.2@lodash' },
+     'install:core-js@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.7@core-js' },
+     'install:core-js:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.2.7@core-js' },
+     'install:core-js@^2.4.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.4.1@core-js' },
+     'install:core-js:range:3.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.2.4.1@core-js' },
+     'install:fsevents@^1.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.15@fsevents' },
+     'install:fsevents:range:2.0.0': 
+      { package: [Object],
+        dir: 'F:\\actsports-web(2)\\node_modules\\.1.0.15@fsevents' },
+     'nodemodule:path:F:\actsports-web(2)': [ 'F:\\actsports-web(2)\\node_modules', 'F:\\node_modules' ],
+     'nodemodule:path:F:\actsports-web(2)\node_modules\.1.16.2@webpack-dev-server': 
+      [ 'F:\\actsports-web(2)\\node_modules\\.1.16.2@webpack-dev-server\\node_modules',
+        'F:\\actsports-web(2)\\node_modules',
+        'F:\\node_modules' ] },
+  targetDir: 'F:\\actsports-web(2)',
+  storeDir: 'F:\\actsports-web(2)\\node_modules',
+  timeout: 60000,
+  console: 
+   { info: { [Function: disabled] enabled: false, namespace: 'npminstall:index' },
+     log: { [Function: disabled] enabled: false, namespace: 'npminstall:index' },
+     error: [Function: bound ],
+     warn: [Function: bound ] },
+  start: 1482569546485,
+  totalTarballSize: 193722,
+  totalJSONSize: 4041052,
+  totalJSONCount: 672,
+  localPackages: 0,
+  remotePackages: 0,
+  registryPackages: 477,
+  gitPackages: 0,
+  paddingMessages: 
+   [ [ 'warn',
+       '%s %s %s',
+       '\u001b[35mdeprecate\u001b[39m',
+       '\u001b[90mnode-uuid@1.4.7\u001b[39m',
+       'use uuid module instead' ] ],
+  recentlyUpdateMinDateTime: 1481964746485,
+  recentlyUpdates: 
+   Map {
+     'babel-preset-react@6.16.0\u001b[90m › \u001b[39mbabel-plugin-transform-react-jsx@6.8.0\u001b[90m › \u001b[39mbabel-helper-builder-react-jsx@6.21.1' => 2016-12-18T05:15:36.461Z,
+     'css-loader@0.26.1\u001b[90m › \u001b[39mcssnano@3.9.1\u001b[90m › \u001b[39mpostcss-minify-params@1.2.1' => 2016-12-21T00:18:59.546Z,
+     'css-loader@0.26.1\u001b[90m › \u001b[39mcssnano@3.9.1\u001b[90m › \u001b[39mpostcss-reduce-initial@1.0.1' => 2016-12-22T16:41:27.862Z,
+     'css-loader@0.26.1\u001b[90m › \u001b[39mcssnano@3.9.1\u001b[90m › \u001b[39mpostcss-svgo@2.1.6' => 2016-12-17T15:18:16.385Z,
+     'babel-core@6.21.0\u001b[90m › \u001b[39mdebug@2.5.1' => 2016-12-21T05:33:20.503Z,
+     'babel-core@6.21.0\u001b[90m › \u001b[39mbabel-register@6.18.0\u001b[90m › \u001b[39msource-map-support@0.4.7' => 2016-12-22T08:34:14.281Z,
+     'css-loader@0.26.1\u001b[90m › \u001b[39mpostcss@5.2.7' => 2016-12-24T08:46:10.078Z,
+     'css-loader@0.26.1\u001b[90m › \u001b[39mcssnano@3.9.1\u001b[90m › \u001b[39mautoprefixer@6.6.0' => 2016-12-23T04:49:09.632Z,
+     'css-loader@0.26.1\u001b[90m › \u001b[39mcssnano@3.9.1\u001b[90m › \u001b[39mautoprefixer@6.6.0\u001b[90m › \u001b[39mbrowserslist@1.5.1' => 2016-12-21T14:55:15.322Z,
+     'react@0.14.8\u001b[90m › \u001b[39menvify@3.4.1\u001b[90m › \u001b[39mjstransform@11.0.3\u001b[90m › \u001b[39mcommoner@0.10.8\u001b[90m › \u001b[39mrecast@0.11.18\u001b[90m › \u001b[39mesprima@3.1.3' => 2016-12-23T03:18:26.259Z,
+     'css-loader@0.26.1\u001b[90m › \u001b[39mcssnano@3.9.1\u001b[90m › \u001b[39mautoprefixer@6.6.0\u001b[90m › \u001b[39mcaniuse-db@1.0.30000602' => 2016-12-21T05:03:37.278Z },
+  onlyShowTodayUpdateToConsole: true,
+  remoteNames: {},
+  installRoot: true,
+  referer: 'install css-loader react react-dom react-native-easy-toast react-router react-weui style-loader weui babel-core babel-loader babel-preset-es2015 babel-preset-react history http-server less less-loader node-uuid postcss-loader react-native-toast-easy react-redux react-touch-loader redux uglify-loader url-loader validator webpack webpack-dev-server whatwg-fetch --uuid=4b3eb350-c9b6-11e6-a425-3f708481f275' }
